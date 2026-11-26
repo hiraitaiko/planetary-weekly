@@ -2,56 +2,148 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
+<meta name="color-scheme" content="light">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Planetary Weekly — 火星・氷衛星・アストロバイオ</title>
 <style>
-  :root { --bg:#fafaf7; --fg:#1d1d1b; --mute:#6b6b66; --line:#e3e1da; --acc:#b4492b; --card:#fff; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#161614; --fg:#ecebe6; --mute:#9a998f; --line:#2c2c29; --acc:#e8825f; --card:#1e1e1b; } }
+  :root { --bg:#fafaf7; --fg:#1d1d1b; --mute:#6b6b66; --line:#e3e1da; --acc:#b4492b; --card:#fff; --star:#e0a800; }
   * { box-sizing: border-box; }
   body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.7 -apple-system,"Hiragino Sans","Noto Sans JP",sans-serif; }
   main { max-width:760px; margin:0 auto; padding:32px 20px 80px; }
   h1 { font-size:22px; margin:0 0 4px; }
   .sub { color:var(--mute); font-size:14px; margin-bottom:20px; }
-  select { font:inherit; padding:4px 8px; background:var(--card); color:var(--fg); border:1px solid var(--line); border-radius:6px; }
-  .bar { display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-bottom:24px; }
-  article { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 18px; margin-bottom:14px; }
+  select, input { font:inherit; padding:4px 8px; background:var(--card); color:var(--fg); border:1px solid var(--line); border-radius:6px; }
+  button.plain { font:inherit; padding:4px 12px; background:var(--card); color:var(--fg); border:1px solid var(--line); border-radius:6px; cursor:pointer; }
+  .bar { display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-bottom:16px; }
+  details { margin-bottom:20px; font-size:14px; color:var(--mute); }
+  details input { width:min(420px,100%); }
+  article { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 18px; margin-bottom:14px; display:flex; gap:18px; }
+  .body { flex:1; min-width:0; }
   .meta { font-size:13px; color:var(--mute); }
   .j { color:var(--acc); font-weight:600; }
   h2 { font-size:17px; line-height:1.4; margin:6px 0 8px; }
   h2 a { color:inherit; text-decoration:none; } h2 a:hover { text-decoration:underline; }
   .why { font-size:13px; color:var(--mute); margin-top:8px; }
   .tags span { display:inline-block; font-size:12px; border:1px solid var(--line); border-radius:99px; padding:0 8px; margin:6px 4px 0 0; color:var(--mute); }
-  .score { float:right; font-size:13px; color:var(--mute); }
+  .foot { display:flex; justify-content:space-between; align-items:center; margin-top:8px; font-size:13px; color:var(--mute); }
+  .stars button { background:none; border:0; padding:0 1px; font-size:22px; line-height:1; cursor:pointer; color:var(--line); }
+  .stars button.on { color:var(--star); }
 </style>
 </head>
 <body>
 <main>
   <h1>Planetary Weekly</h1>
   <div class="sub">火星・氷衛星・アストロバイオロジー — Nature系 / Science系 / PNAS / EPSL / GCA から毎週ピック</div>
-  <div class="bar"><label>週: <select id="week"></select></label><span class="meta" id="info"></span></div>
+  <div class="bar">
+    <label>週: <select id="week"></select></label>
+    <span class="meta" id="info"></span>
+    <span class="meta" id="status"></span>
+  </div>
+  <details id="settings">
+    <summary>★評価をGitHubに保存する設定(任意)</summary>
+    <p>★を付けた評価は、まずこのブラウザ内に保存されます。次回以降の選定に反映するには、GitHubに書き込むためのトークンを入れてください(このブラウザにだけ保存され、公開されません)。</p>
+    <p>トークンは GitHub → Settings → Developer settings → Fine-grained tokens で、このリポジトリだけを選び、Permissions の <b>Contents: Read and write</b> にして作ります。</p>
+    <input id="token" type="password" placeholder="github_pat_..." autocomplete="off">
+    <button class="plain" id="save-token">保存</button>
+  </details>
   <div id="list"></div>
 </main>
 <script>
 const $ = s => document.querySelector(s);
-const esc = s => (s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const esc = s => (s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const LS = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
+};
+const REPO = { owner: location.hostname.split(".")[0], repo: location.pathname.split("/")[1] || "" };
+const API = `https://api.github.com/repos/${REPO.owner}/${REPO.repo}/contents/data/ratings.json`;
+
+let ratings = {};            // doi -> {stars,title,journal,hits,date,t}
+let dirty = LS.get("dirty", {});
+let picksByDoi = {};
+let syncTimer = null;
+
+const setStatus = t => { $("#status").textContent = t; };
+
+async function loadRatings() {
+  let remote = {};
+  try { const r = await fetch("data/ratings.json?" + Date.now(), { cache: "no-store" }); if (r.ok) remote = await r.json(); } catch {}
+  const local = LS.get("ratings", {});
+  ratings = { ...remote };
+  for (const [k, v] of Object.entries(local)) if (!ratings[k] || (v.t || "") >= (ratings[k].t || "")) ratings[k] = v;
+}
+
+function starsHtml(doi) {
+  const n = (ratings[doi] || {}).stars || 0;
+  return [1,2,3,4,5].map(i => `<button data-doi="${esc(doi)}" data-n="${i}" class="${i <= n ? "on" : ""}" title="${i}点">★</button>`).join("");
+}
+
 async function load(wk) {
   const d = await (await fetch(`data/${wk}.json`)).json();
-  $("#info").textContent = `${d.since} 以降の ${d.n_scanned} 本から ${d.picks.length} 本を選定`;
+  $("#info").textContent = `${d.since} 以降の ${d.n_scanned} 本から ${d.picks.length} 本`;
+  picksByDoi = Object.fromEntries(d.picks.map(p => [p.doi, p]));
   $("#list").innerHTML = d.picks.map(p => `
     <article>
-      <span class="score">score ${p.score}</span>
-      <div class="meta"><span class="j">${esc(p.journal)}</span> · ${esc(p.date)} · ${esc(p.authors.slice(0,3).join(", "))}${p.n_authors>3?" et al.":""}</div>
-      <h2><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a></h2>
-      <div>${esc(p.summary_ja)}</div>
-      <div class="why">${esc(p.why)}</div>
-      <div class="tags">${p.hits.slice(0,6).map(h=>`<span>${esc(h)}</span>`).join("")}</div>
+      <div class="body">
+        <div class="meta"><span class="j">${esc(p.journal)}</span> · ${esc(p.date)} · ${esc(p.authors.slice(0,3).join(", "))}${p.n_authors>3?" et al.":""}</div>
+        <h2><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a></h2>
+        <div>${esc(p.summary_ja)}</div>
+        <div class="why">${esc(p.why)}</div>
+        <div class="tags">${p.hits.slice(0,6).map(h=>`<span>${esc(h)}</span>`).join("")}</div>
+        <div class="foot"><span class="stars" data-doi="${esc(p.doi)}">${starsHtml(p.doi)}</span><span>score ${p.score}</span></div>
+      </div>
     </article>`).join("") || "<p>該当なし</p>";
 }
+
+document.addEventListener("click", e => {
+  const b = e.target.closest(".stars button");
+  if (!b) return;
+  const doi = b.dataset.doi, n = +b.dataset.n, p = picksByDoi[doi];
+  if (!p) return;
+  const entry = { stars: n, title: p.title, journal: p.journal, hits: p.hits, date: p.date, t: new Date().toISOString() };
+  ratings[doi] = entry; dirty[doi] = entry;
+  LS.set("ratings", ratings); LS.set("dirty", dirty);
+  b.parentElement.innerHTML = starsHtml(doi);
+  clearTimeout(syncTimer); syncTimer = setTimeout(sync, 1500);
+  setStatus(LS.get("token", "") ? "保存中…" : "このブラウザにのみ保存(上の設定でトークンを入れるとGitHubに保存)");
+});
+
+const b64enc = s => btoa(unescape(encodeURIComponent(s)));
+const b64dec = s => decodeURIComponent(escape(atob(s.replace(/\n/g, ""))));
+
+async function sync() {
+  const token = LS.get("token", "");
+  if (!Object.keys(dirty).length || !token) return;
+  const h = { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" };
+  try {
+    for (let attempt = 0; attempt < 3; attempt++) {
+      let sha, remote = {};
+      const g = await fetch(API, { headers: h, cache: "no-store" });
+      if (g.status === 200) { const j = await g.json(); sha = j.sha; remote = JSON.parse(b64dec(j.content)); }
+      else if (g.status !== 404) { setStatus(`保存に失敗しました (HTTP ${g.status})。トークンの権限を確認してください`); return; }
+      const merged = { ...remote, ...dirty };
+      const body = { message: "ratings update", content: b64enc(JSON.stringify(merged, null, 1)) };
+      if (sha) body.sha = sha;
+      const p = await fetch(API, { method: "PUT", headers: h, body: JSON.stringify(body) });
+      if (p.ok) { dirty = {}; LS.set("dirty", dirty); setStatus("GitHubに保存しました(次回の選定から反映)"); return; }
+      if (p.status !== 409 && p.status !== 422) { setStatus(`保存に失敗しました (HTTP ${p.status})`); return; }
+    }
+    setStatus("保存が競合しました。もう一度★を押してください");
+  } catch { setStatus("通信エラー。あとで再試行されます"); }
+}
+
+$("#save-token").onclick = () => {
+  LS.set("token", $("#token").value.trim()); $("#token").value = "";
+  setStatus("トークンを保存しました"); sync();
+};
+
 (async () => {
+  await loadRatings();
   const weeks = (await (await fetch("data/index.json")).json()).reverse();
   $("#week").innerHTML = weeks.map(w => `<option>${w}</option>`).join("");
   $("#week").onchange = e => load(e.target.value);
-  if (weeks.length) load(weeks[0]);
+  if (weeks.length) await load(weeks[0]);
+  if (Object.keys(dirty).length) sync();
 })();
 </script>
 </body>
