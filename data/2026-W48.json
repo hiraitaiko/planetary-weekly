@@ -1,0 +1,225 @@
+{
+ "week": "2026-W48",
+ "generated": "2026-11-26",
+ "since": "2026-11-18",
+ "n_scanned": 610,
+ "picks": [
+  {
+   "journal": "GCA",
+   "jweight": 0.7,
+   "title": "Prebiotic organic compounds in asteroid Bennu and Ryugu reflect divergent parent body histories",
+   "doi": "https://doi.org/10.1016/j.gca.2026.10.003",
+   "url": "https://doi.org/10.1016/j.gca.2026.10.003",
+   "date": "2026-10-04",
+   "authors": [
+    "Angel Mojarro",
+    "José C. Aponte",
+    "Daniel P. GLAVIN",
+    "Jamie E. Elsila",
+    "Jason P. Dworkin",
+    "Harold C. Connolly Jr."
+   ],
+   "n_authors": 6,
+   "abstract": "The return of pristine samples from carbonaceous asteroids Ryugu by JAXA’s Hayabusa2 mission and Bennu by NASA’s OSIRIS-REx mission has enabled the direct comparative study of prebiotic organic compounds across the two primitive bodies. Using pyrolysis, thermochemolysis, and one-pot derivatization coupled to gas chromatography-triple quadrupole-mass spectrometry, we analyzed free volatile, insoluble, and soluble organic matter in a Ryugu aggregate and compared results to a Bennu aggregate and stones of interest. Pyrolysis of the Ryugu sample revealed polycyclic aromatic hydrocarbons, their alkylated homologues, and sulfur-, oxygen-, and nitrogen-bearing heterocyclic aromatic compounds consistent with aqueous alteration of the parent body. One-pot derivatization of the Ryugu aggregate yielded only tentative detections of β-alanine and 2,4-diaminopyrimidine. This is in contrast to the 14 proteinogenic α-amino acids and five canonical nucleobases previously detected across Bennu samples using the same technique. Thermochemolysis of the Ryugu sample revealed limited methylated derivatives while Bennu samples did not yield compounds above the procedural blank. The sparse thermochemolysis detections in samples from both asteroids are notable given that diverse methylated derivatives have been reported from the Orguiel (CI1) and Murchison (CM2) meteorites. We interpret these results as most likely originating from reagent-mineral interactions suppressing TMAH yields. Overall, contrasting organic inventories reflect divergent-parent body histories. Results from the Ryugu samples are consistent with a CI1-like classification, displaying increased alkylation of insoluble organic matter alongside depleted soluble organic matter abundances. In contrast, Bennu preserves heterogeneous organic signatures across stones recording multiple distinct alteration episodes. The presence of prebiotic molecules including amino acids and nucleobases across both asteroids further highlights the significance of carbonaceous bodies in contributing the chemical building blocks of life throughout the early Solar System.",
+   "cited_by": 0,
+   "hits": [
+    "prebiotic",
+    "bennu",
+    "ryugu"
+   ],
+   "relevance": 9,
+   "buzz": 6,
+   "summary_ja": "リュウグウ試料とベンヌ試料の前生物的有機化合物を、熱分解・熱化学分解・ワンポット誘導体化とGC-トリプル四重極MSで比較した。リュウグウでは多環芳香族炭化水素やヘテロ環芳香族化合物が検出され、母天体での水質変質と整合する。一方、アミノ酸や核酸塩基は暫定的なβ-アラニンと2,4-ジアミノピリミジンのみで、ベンヌで報告された14種のα-アミノ酸と5種の核酸塩基とは対照的だった。両天体の母天体の履歴が異なることが示唆される。",
+   "why": "サンプルリターン試料の有機物比較で、前生物化学の中心的な話題である。",
+   "score": 7.9
+  },
+  {
+   "journal": "GCA",
+   "jweight": 0.7,
+   "title": "Simultaneous formation of DNA and RNA nucleosides in shock-recovery experiments",
+   "doi": "https://doi.org/10.1016/j.gca.2026.10.020",
+   "url": "https://doi.org/10.1016/j.gca.2026.10.020",
+   "date": "2026-10-16",
+   "authors": [
+    "Jiawen Zhao",
+    "Koichi Mimura"
+   ],
+   "n_authors": 2,
+   "abstract": "Whether RNA, DNA, or both emerged as the first genetic system remains an important question in origin-of-life research. The RNA world hypothesis proposes that RNA preceded DNA, whereas alternative scenarios allow for the coexistence of RNA- and DNA-related building blocks during early chemical evolution. A key chemical question is whether deoxyribonucleosides can be generated abiotically from molecular precursors that could have been available under prebiotic conditions. Meteorite impacts generate transient high-pressure and high-temperature conditions that can promote rapid chemical reactions in solid-state environments. Here, we investigate the formation of ribonucleoside and deoxyribonucleoside frameworks from ribose and canonical purine and pyrimidine nucleobases under simulated meteorite impact conditions. Shock compression generated both ribonucleoside and deoxyribonucleoside frameworks during a single shock event. Single- and dual- 13 C-labeling experiments confirmed the incorporation of carbon from both ribose and nucleobase. Experiments conducted under different reaction conditions showed that nucleoside yields and product distributions varied with mineral composition, organic loading, nucleobase composition, and water content. These results demonstrate that shock compression provides a solid-state reaction regime in which both ribonucleoside and deoxyribonucleoside frameworks can be generated from common molecular precursors. This study provides experimental constraints on nucleoside formation and the environmental factors affecting this process under impact-driven conditions.",
+   "cited_by": 0,
+   "hits": [
+    "prebiotic"
+   ],
+   "relevance": 8,
+   "buzz": 6,
+   "summary_ja": "リボースと標準的なプリン・ピリミジン核酸塩基を出発物質に、隕石衝突を模した衝撃圧縮実験でヌクレオシドの生成を調べた。1回の衝撃でリボヌクレオシドとデオキシリボヌクレオシドの骨格が両方生成した。13C標識実験で、リボースと核酸塩基の双方から炭素が取り込まれることが確認された。収率や生成物分布は鉱物組成、有機物量、核酸塩基の種類、含水量で変化した。",
+   "why": "衝突による前生物的なRNA・DNA関連分子の同時生成という生命起源研究の話題である。",
+   "score": 7.3
+  },
+  {
+   "journal": "Science Advances",
+   "jweight": 0.7,
+   "title": "The importance of organics in hydrothermal environments: A synchrotron laboratory study",
+   "doi": "https://doi.org/10.1126/sciadv.aei7801",
+   "url": "https://doi.org/10.1126/sciadv.aei7801",
+   "date": "2026-11-20",
+   "authors": [
+    "Laura E. Jenkins",
+    "Stephen P. Thompson",
+    "Eamonn T. Connolly",
+    "Celine Beck",
+    "Sarah J. Day",
+    "Lucy K. Saunders"
+   ],
+   "n_authors": 6,
+   "abstract": "The icy moon Enceladus has hydrothermal plumes that are of astrobiologic interest as they could provide conditions to sustain life or allow for its origin. To understand the geology of hydrothermal environments on icy moons, a carbonaceous asteroid simulant similar to the material Enceladus may have accreted from was subjected to conditions analogous to that of its seafloor. The sample environment used allowed high-resolution in situ synchrotron x-ray diffraction data to be collected during the experiment. Mineral reactions were observed as they occurred. Multiple mineral reactions had a large dependence on organic matter. Organics catalyzed the breakdown of aluminosilicates and dissolved pyrite. Melanophlogite and pyrrhotite were also formed as a result of organics being present. This study reveals that organics can have a large impact on mineral reactions and likely play an important role in the geology of hydrothermal vents on icy moons, which have an abundance of organics.",
+   "cited_by": 0,
+   "hits": [
+    "enceladus",
+    "icy moon",
+    "astrobiolog",
+    "hydrothermal vent"
+   ],
+   "relevance": 8,
+   "buzz": 4,
+   "summary_ja": "エンケラドスが集積した可能性のある炭素質小惑星の模擬物質を海底熱水環境相当の条件に置き、放射光X線回折でその場観察した実験である。有機物の存在が複数の鉱物反応に大きく影響し、アルミノケイ酸塩の分解を触媒し黄鉄鉱を溶解させることが示された。有機物の存在下ではメラノフロジャイトと磁硫鉄鉱が生成した。有機物が氷衛星の熱水噴出孔の地質に重要な役割を果たすと結論している。",
+   "why": "エンケラドスの熱水環境と有機物・鉱物反応を実験的に扱い、氷衛星とアストロバイオロジーの両方に合致する。",
+   "score": 6.7
+  },
+  {
+   "journal": "EPSL",
+   "jweight": 0.7,
+   "title": "An exposed magmatic feeder system for the regional olivine unit in Nili Fossae, Mars",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120390",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120390",
+   "date": "2026-10-08",
+   "authors": [
+    "Adomas Valantinas",
+    "John F. Mustard",
+    "Adriano Tullo",
+    "Michael Stephen Bramble",
+    "James W. Head III"
+   ],
+   "n_authors": 5,
+   "abstract": "The origin of the >100,000 km² regional olivine unit in the Nili Fossae-Jezero region has been variously attributed by orbital studies to airfall, effusive lavas, impact melt, or intrusive emplacement. In situ characterization of olivine-bearing igneous rocks in Jezero crater by the Mars 2020 Perseverance rover has revealed olivine cumulate textures indicative of effusive or intrusive magmatism, but conduits in the shallow-crustal feeder system that transported olivine-saturated magma have not been identified. Here we combine sub-meter pansharpened imagery from the Colour and Stereo Surface Imaging System (CaSSIS) and the High Resolution Imaging Science Experiment (HiRISE) with near-infrared spectral analysis from the Compact Reconnaissance Imaging Spectrometer for Mars (CRISM) to characterize a population of olivine-rich ridges and elongated features that crosscut the Fe/Mg-smectite basement at the \"Horseshoe\" site in Nili Fossae, ∼200 km north of Jezero. The features display a continuum of morphologies, from planar dike-like ridges through sinuous and braided lineaments that locally crosscut topography. Analysis of the 1 µm olivine near-infrared absorption places the features along the same compositional trend as the regional olivine–carbonate assemblage, and CRISM spectra resolve weak 1.9 and 2.32 µm absorptions diagnostic of hydrated/hydroxylated phases, indicating partial alteration of the intrusive olivine. We interpret these features as exhumed magmatic intrusions in a hydrated smectite basement, possibly exploiting pre-existing fault networks, and propose that they form part of a broader Jezero-Nili Fossae magmatic province. Magma-clay contact zones of this kind may provide a unique class of habitable environments in the shallow Noachian crust of Mars.",
+   "cited_by": 0,
+   "hits": [
+    "mars",
+    "jezero",
+    "perseverance rover",
+    "habitab"
+   ],
+   "relevance": 8,
+   "buzz": 4,
+   "summary_ja": "ニリ・フォッセ-ジェゼロ地域の広域オリビン岩体の起源について、CaSSIS・HiRISE画像とCRISM近赤外スペクトルを組み合わせ、「Horseshoe」地点のオリビンに富む尾根状地形を解析した。これらは平面的な岩脈状から曲がりくねった編み込み状まで連続的な形態を示し、一部は地形を横切る。オリビンの1 µm吸収は地域のオリビン–炭酸塩集合体と同じ組成トレンドに乗り、弱い水和・水酸化吸収も検出され、部分的変質が示唆される。これらを露出した火成貫入体と解釈している。",
+   "why": "ジェゼロ周辺の火成活動とパーシビアランス探査の文脈を補う火星地質の研究である。",
+   "score": 6.7
+  },
+  {
+   "journal": "EPSL",
+   "jweight": 0.7,
+   "title": "Driving zonal flows in Europa’s ocean by magnetic induction",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120360",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120360",
+   "date": "2026-09-24",
+   "authors": [
+    "Ilse de Langen",
+    "Johannes Wicht"
+   ],
+   "n_authors": 2,
+   "abstract": "Jupiter’s moon Europa is immersed in the planet’s magnetic field. Variations caused by the orbital motion and Jupiter’s rotation induce currents into the moon’s subsurface ocean. The measurement of the related magnetic field signal by the Galileo spacecraft actually led to the discovery of the ocean. NASA’s Europa Clipper mission, scheduled to arrive in 2030, will perform refined measurements for constraining the ocean properties. Here we use 3D numerical simulations to explore whether the Lorentz forces caused by the induction process would drive flows in the ocean. Our simulations show that the magnetic field variations with the orbital frequency excite a specific inertial wave solution, known as the spin-over mode. Variations with the synodic frequency, on the other hand, drive geostrophic zonal flows. Although most parameters are realistic, the ocean viscosity is significantly larger than would be appropriate. However, by varying the viscosity over many orders of magnitude, we derive a scaling relation for extrapolating the simulation results to the ocean viscosity. Contrary to previous findings, our extrapolation suggests that the flows would generally be extremely weak with velocities below 10 − 6 m/s. This is a direct consequence of the relatively weak magnetic field at Europa’s orbit. We can therefore safely ignore the impact of the induced Lorentz forces on the ocean dynamics.",
+   "cited_by": 0,
+   "hits": [
+    "europa",
+    "subsurface ocean"
+   ],
+   "relevance": 8,
+   "buzz": 4,
+   "summary_ja": "木星磁場の変動によりエウロパの内部海に誘導される電流のローレンツ力が海流を駆動するかを、3D数値シミュレーションで調べた。軌道周波数の変動はスピンオーバーモードの慣性波を励起し、会合周期の変動は地衡的な帯状流を駆動する。粘性を広範囲に変えたスケーリング則から外挿すると、流速は10^-6 m/s未満と極めて弱く、従来の知見とは異なる。このため誘導ローレンツ力の海洋力学への影響は無視できると結論している。",
+   "why": "エウロパ内部海のダイナミクスとClipper観測の解釈に関わる。",
+   "score": 6.7
+  },
+  {
+   "journal": "GCA",
+   "jweight": 0.7,
+   "title": "Best Bulk Bennu (B3): elemental compositions of aggregate samples from asteroid Bennu",
+   "doi": "https://doi.org/10.1016/j.gca.2026.11.022",
+   "url": "https://doi.org/10.1016/j.gca.2026.11.022",
+   "date": "2026-11-01",
+   "authors": [
+    "K. Wang",
+    "K. Lodders",
+    "P. Koefoed",
+    "M. Broussard",
+    "J. Wimpenny",
+    "J. Render"
+   ],
+   "n_authors": 24,
+   "abstract": "Ivuna-type (CI) carbonaceous chondrites have long served as proxies for the bulk Solar System composition due to their close agreement with solar photospheric abundances and enrichment in volatile elements relative to other chondrite classes. However, CI chondrites have been subject to terrestrial alteration, which may have modified their original mineralogies and redistributed aqueously mobile elements. NASA’s OSIRIS-REx mission delivered pristine material from the carbonaceous asteroid Bennu, and initial analyses revealed close compositional similarities with CI chondrites. This provides a valuable opportunity to refine estimates of the bulk Solar System composition. We report concentrations of 63 elements in aggregate (bulk, unsorted) Bennu material (representing a combined mass of ∼ 8 g) analyzed across four laboratories. Within analytical uncertainties, we find no statistically significant differences among aliquots of two aggregate samples that were homogenized into powders, or among subsamples (including two previously reported) of a non-homogenized aggregate sample. Nor do we find measurable variations among sample masses ranging from tens of milligrams to several grams. These findings indicate that the material returned from Bennu is well mixed at the aggregate scale. Combining all of the data, we derive an average bulk elemental composition that we term Best Bulk Bennu (B3). Comparison of B3 with an average CI chondrite composition shows excellent agreement within analytical uncertainties, confirming that terrestrial alteration of CI chondrites is effectively isochemical for non-highly volatile elements. B3 and the CI chondrite average composition compare similarly to the solar photospheric composition. Our findings suggest that both CI meteorites and returned samples of carbonaceous asteroids are the best available materials for estimating the bulk Solar System composition of non-highly volatile elements.",
+   "cited_by": 3,
+   "hits": [
+    "bennu",
+    "carbonaceous chondrite"
+   ],
+   "relevance": 8,
+   "buzz": 4,
+   "summary_ja": "OSIRIS-RExが持ち帰ったベンヌの集合試料(合計約8 g)について、4つの研究室で63元素の濃度を分析した。2つの集合試料の均質化粉末や非均質化試料のサブサンプル間で、分析誤差内に有意な差はなく、数十mgから数gまでの試料質量による変動も見られない。これらを統合して平均的なバルク組成「Best Bulk Bennu(B3)」を導出した。B3は平均的なCIコンドライト組成とよく一致する。",
+   "why": "サンプルリターン試料による太陽系バルク組成の基準更新で、原始的有機物・水質変質研究の基盤となる。",
+   "score": 6.7
+  },
+  {
+   "journal": "GCA",
+   "jweight": 0.7,
+   "title": "Solubility of tholins in hexane, acetonitrile, and acrylonitrile: Implications for Titan’s lakes",
+   "doi": "https://doi.org/10.1016/j.gca.2026.09.041",
+   "url": "https://doi.org/10.1016/j.gca.2026.09.041",
+   "date": "2026-10-06",
+   "authors": [
+    "Y Layssac",
+    "Troy L. Williams",
+    "Rohana Liyanage",
+    "Jackson O. Lay",
+    "V. F. Chevrier"
+   ],
+   "n_authors": 5,
+   "abstract": "Aerosols formed in the atmosphere of Titan sediment and accumulate on the surface where they may interact with the liquid hydrocarbons and organics composing the lakes and seas. In this study, Titan tholins made from nitrogen and methane (95/5) exposed to a cold plasma discharge have been mixed with acetonitrile, acrylonitrile, hexane and a saturated solution of acetonitrile in hexane, under an inert atmosphere at room temperature. The liquid phase has been monitored through time (days to weeks) using gas chromatography coupled to mass spectrometry. Fourier transform infrared spectroscopy has been used to characterize tholins before and after solubilization events, in both the near and mid infrared regions. Infrared spectra do not show differences induced by the interaction of tholins with the liquid phases used in this work. Gas chromatograms indicate that many organics are extracted from our tholins in acetonitrile, with the characterization of nitriles, amines and other nitrogen bearing molecules. Among the three other solvents tested, only acrylonitrile shows limited solubilization of organics from tholins, but no structure could be identified. Pure hexane fails to solubilize any organics detectable in our conditions, as expected by its nonpolar nature. Despite the high solubility of our tholins in acetonitrile, no organics are solubilized when this molecule is saturated in hexane. The positive results obtained with polar solvents (acetonitrile and acrylonitrile) and the negative results obtained with nonpolar liquid phases (hexane with or without acetonitrile) are consistent with previous studies. However, these studies also showed that the composition of tholins is highly dependent on the conditions used for their synthesis, which cannot capture the complexity of Titan’s atmosphere where many processes co-exist. This suggests that Titan haze could contain a rich reservoir of organics that, given the geological timescales available, would make the presence of dissolved organics in the lakes and seas a real possibility.",
+   "cited_by": 0,
+   "hits": [
+    "titan"
+   ],
+   "relevance": 8,
+   "buzz": 4,
+   "summary_ja": "窒素・メタン(95/5)の低温プラズマ放電で作ったタイタン・トリンを、ヘキサン、アセトニトリル、アクリロニトリル、アセトニトリル飽和ヘキサンと室温・不活性雰囲気で混合し、液相をGC-MSで追跡した。アセトニトリルではニトリルやアミンなど多くの有機物が抽出され、アクリロニトリルでは限定的な溶解のみで構造は同定できなかった。ヘキサンでは検出可能な有機物は溶出せず、アセトニトリル飽和ヘキサンでも溶出しなかった。赤外スペクトルは溶媒との接触による変化を示さない。",
+   "why": "タイタンの湖と有機物の相互作用を実験で検討し、タイタン表面化学とアストロバイオロジーに関連する。",
+   "score": 6.7
+  },
+  {
+   "journal": "EPSL",
+   "jweight": 0.7,
+   "title": "A light chlorine isotopes reservoir on Mars",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120370",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120370",
+   "date": "2026-09-25",
+   "authors": [
+    "Disheng Zhou",
+    "Sen Hu",
+    "Akira Yamaguchi",
+    "Huicun He",
+    "Yue Zhang",
+    "Magali Bonifacie"
+   ],
+   "n_authors": 9,
+   "abstract": "Water and other volatiles are crucial for unravelling the evolution history of the geology and climate of Mars. Recently, some studies have shown that there are some light isotopic signatures of volatiles on Mars, for instance, the intermediate water reservoir recorded in Yamato 980459 (Y98). To better understand these processes, we adopted two-dimensional isotopic systematics (H and Cl) along with H 2 O, F, and Cl concentrations to investigate the origin of the light isotopic signatures in Y98. Y98 melt inclusions and impact glasses were measured to have distinct H 2 O, F, and Cl abundances and H and Cl isotopic compositions. Y98 melt inclusions could have recorded an addition of D- and 37 Cl-fluid to the parent melt in the magmatic process. In contrast, Y98 impact glasses have documented another hydrothermal event in which the fluid is characterized by light Cl isotopes. The extremely low F/Cl ratios (∼0.02) of Y98 impact glasses suggest that these glasses should have been almost devolatilized in the formation event of the impact melt pocket and have retaken the measured volatiles postdated the shock event. The light Cl isotopic compositions of Y98 impact glasses no doubt suggest there was a light Cl isotopes reservoir at near surface of Mars. We infer that the light Cl reservoir may be associated with the outgassing of volatiles in martian volcanism, suggesting that the dynamic atmospheric escape and outgassing supply of volatiles from Mars’ interior would have coordinatively shaped the climate of Mars over time.",
+   "cited_by": 0,
+   "hits": [
+    "mars",
+    "martian"
+   ],
+   "relevance": 8,
+   "buzz": 3,
+   "summary_ja": "火星隕石Yamato 980459のメルト包有物と衝撃ガラスについて、HとClの同位体とH2O・F・Cl濃度を測定した。包有物はマグマ過程でDと37Clに富む流体が付加された記録を示す。一方、衝撃ガラスは軽いCl同位体で特徴づけられる別の熱水イベントを記録し、F/Cl比は極めて低く(約0.02)、衝撃で揮発成分がほぼ失われた後に再取得したと考えられる。火星の地表付近に軽いCl同位体の貯蔵庫が存在し、火山活動による脱ガスと関連する可能性が推測されている。",
+   "why": "火星隕石による揮発性成分・水の履歴の制約という中核テーマである。",
+   "score": 6.4
+  }
+ ]
+}
