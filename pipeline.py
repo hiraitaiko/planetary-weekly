@@ -72,13 +72,32 @@ def fetch_journal(name, info, since):
     return papers
 
 
-KW_RE = [(k, re.compile(r"\b" + re.escape(k))) for k in CFG["keywords"]]
+# 語幹で拾いたいキーワード(後ろは何が付いてもよい)。それ以外は「単語として一致」(複数形の s は許可)
+PREFIX_KW = {"astrobiolog", "habitab", "cryovolcan", "cryomagma", "serpentiniz", "biosignature", "prebiotic"}
+# 分野外でも「話題の惑星科学論文」として拾うための一般キーワード(config.json に keywords_general があればそちらを優先)
+DEFAULT_GENERAL = ["planet", "planetary", "exoplanet", "moon", "lunar", "asteroid", "comet", "meteorite", "meteoroid",
+                   "venus", "mercury", "jupiter", "saturn", "uranus", "neptune", "pluto", "solar system", "protoplanetary",
+                   "impact crater", "regolith", "chang'e", "osiris-rex", "hayabusa", "juno", "cassini", "dart"]
+
+
+def _rx(k):
+    pat = re.escape(k)
+    return re.compile(r"\b" + pat + ("" if k in PREFIX_KW else r"s?\b"))
+
+
+KW_RE = [(k, _rx(k)) for k in CFG["keywords"]]
+GEN_RE = [(k, _rx(k)) for k in CFG.get("keywords_general", DEFAULT_GENERAL)]
 SKIP_TITLE = re.compile(r"^(in this issue|this week|editorial|correction|erratum|retraction)", re.I)
 
 
 def kw_hits(p):
     text = (p["title"] + " " + p["abstract"]).lower()
     return [k for k, rx in KW_RE if rx.search(text)]
+
+
+def gen_hits(p):
+    text = (p["title"] + " " + p["abstract"]).lower()
+    return [k for k, rx in GEN_RE if rx.search(text)]
 
 
 # ---------- Claude API ----------
@@ -151,8 +170,8 @@ def llm_score(cands, prefs):
 {prefs}
 以下の論文それぞれについて JSON 配列のみを返してください(説明文やコードフェンスは不要)。
 各要素: {{"i": 番号, "relevance": 0-10, "buzz": 0-10, "summary_ja": "日本語3〜4文の要約(アブストラクトに書かれた内容のみ。誇張や推測をしない)", "why": "選定理由を日本語1文"}}
-- relevance: 読者の関心分野・過去の好みとの近さ
-- buzz: 分野外にも波及しうる話題性・新規性(世間的に人気が出そうか)
+- relevance: 読者の関心分野(火星・氷衛星・アストロバイオ)・過去の好みとの近さ。惑星科学ではあっても分野から遠い論文は低く、キーワードが偶然一致しただけの無関係な論文(地震、花崗岩の鉱物など)は0〜1にする
+- buzz: 分野外にも波及しうる話題性・新規性(惑星科学コミュニティ全体で人気が出そうか)
 アブストラクトが空/不十分な論文は summary_ja を空文字にし、relevance は低めにしてください。
 
 論文:
@@ -200,9 +219,10 @@ def main():
             continue
         seen.add(p["doi"])
         p["hits"] = kw_hits(p)
-        if p["hits"]:
+        p["general"] = [] if p["hits"] else gen_hits(p)
+        if p["hits"] or p["general"]:
             cands.append(p)
-    cands.sort(key=lambda p: len(p["hits"]) * p["jweight"] + kw_bonus(p, kwadj), reverse=True)
+    cands.sort(key=lambda p: (len(p["hits"]) * 2 + len(p["general"])) * p["jweight"] + kw_bonus(p, kwadj), reverse=True)
     cands = cands[: CFG["candidate_limit"]]
     print(f"candidates: {len(cands)} / {len(allp)}", file=sys.stderr)
 
@@ -224,6 +244,9 @@ def main():
 
     for p in cands:
         p["score"] = round(0.6 * p["relevance"] + 0.3 * p["buzz"] + 1.0 * p["jweight"] + kw_bonus(p, kwadj), 2)
+    if use_llm:
+        min_rel = CFG.get("min_relevance", 3)
+        cands = [p for p in cands if p["relevance"] >= min_rel or p["buzz"] >= 7]
     picks = sorted(cands, key=lambda p: p["score"], reverse=True)[: CFG["top_n"]]
 
     seen_f.write_text(json.dumps(sorted(prev | {p["doi"] for p in picks})))
