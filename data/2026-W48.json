@@ -5,213 +5,162 @@
  "n_scanned": 1314,
  "picks": [
   {
-   "journal": "PNAS",
-   "jweight": 0.8,
-   "title": "A decadal record of isotopic trends in martian atmospheric CO 2",
-   "doi": "https://doi.org/10.1073/pnas.2615294123",
-   "url": "https://doi.org/10.1073/pnas.2615294123",
-   "date": "2026-11-16",
+   "journal": "EPSL",
+   "jweight": 0.7,
+   "title": "Interaction between seismic and aseismic slips along the Mendocino oceanic transform fault offshore northern California",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120421",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120421",
+   "date": "2026-10-24",
    "authors": [
-    "Heather B. Franz",
-    "Christopher R. Webster",
-    "Gregory J. Flesch",
-    "Paul Robert Mahaffy",
-    "Eric Raaen",
-    "Melinda A. Kahre"
+    "Min Liu",
+    "Hui Liu",
+    "Yen Joe Tan"
    ],
-   "n_authors": 26,
-   "abstract": "This work represents the first long-term record of the isotopic composition of martian atmospheric CO2, acquired in situ by the Curiosity rover at Gale crater during Mars Years (MY) 31-38 (2012-2025). Measurement campaigns were designed to investigate possibilities of both diurnal and seasonal effects on CO2 isotopes. Coordinated pairs of analyses during MY 31 and 38 revealed no significant differences in isotopic composition of CO2 acquired during daytime and nighttime hours. However, here we show evidence for modest enrichment in heavy isotopes of oxygen in both northern and southern hemisphere spring-summer seasons. We assessed several processes, including precipitation/sublimation and adsorption/desorption of CO2, CO2 photolysis, and oxygen isotope exchange as potential candidates for producing the observed fractionations. We find that while sublimation of CO2 from polar caps, sublimation and desorption of CO2 from lower latitude reservoirs, and CO2 photolysis are insufficient alone, we can reproduce the measured enrichment through modeling of isotope exchange between CO2 and 18O-enriched H2O in thin liquid-like films at Mars' surface or adsorbed within the regolith as Mars approaches and transits through perihelion. Lesser 18O enrichment near aphelion may reflect less favorable conditions for oxygen isotope exchange at lower temperatures. Observed seasonal variations in CO2 carbon isotopic composition are less pronounced, consistent with less carbon isotope exchange with surface reservoirs than seen for oxygen. Since our measurements were obtained at a single near-equatorial location on Mars, the relative contributions from global, regional, and local processes cannot be well-constrained by the available data.",
+   "n_authors": 3,
+   "abstract": "Aseismic slip plays an important role in the earthquake cycle. On oceanic transform faults (OTFs), the majority of fault slip occurs aseismically which makes OTFs a natural laboratory to study the physical mechanism of aseismic slip and its interaction with seismic rupture. In this study, we apply state-of-the-art methods to analyze the aftershock sequences of three Mw > 6.5 earthquakes on the Mendocino OTF offshore California, including the 1994 and 2024 Mw 7.0 earthquakes, which are one of the largest OTF earthquakes so far. Compared with similar-magnitude continental strike-slip earthquakes, these large Mendocino OTF earthquakes have an order of magnitude fewer aftershocks, suggesting limited inter-event stress triggering. Nevertheless, their aftershock zones expanded with logarithmic time substantially beyond the co-seismic rupture zones, likely reflecting propagating aseismic slip transients. This behavior suggests that low-seismic-coupling segments can host aseismic slip transients triggered by earthquakes in neighboring high-seismic coupling segments while limiting the propagation of these seismic ruptures. In addition, the aftershocks of the 1994 and 2024 Mw 7.0 events, together with abundant background seismicity and previously identified repeating earthquakes, surround the rupture zones of the 2024 Mw 7.0 event and a Mw 6.1 earthquake in 2021, which suggests heterogeneous embedding of seismic slip patches within a predominantly aseismic slip zone in the eastern Mendocino OTF. Our observations reveal heterogeneous slip behavior and complex interaction between seismic and aseismic slips along the Mendocino OTF possibly due to variation in fault zone serpentinization and/or fluid-filled porosity.",
    "cited_by": 0,
    "hits": [
-    "mars",
-    "martian",
-    "gale crater",
-    "curiosity rover"
+    "serpentiniz"
    ],
-   "relevance": 10,
-   "buzz": 7,
-   "summary_ja": "キュリオシティ探査機がゲールクレーターで火星年31〜38(2012〜2025年)に取得した、火星大気CO2の同位体組成の初の長期in situ記録である。昼夜の同位体組成に有意な差はなかったが、南北両半球の春〜夏に酸素の重い同位体がわずかに濃集する証拠が得られた。極冠からのCO2昇華、低緯度貯留層からの昇華・脱着、CO2光分解だけでは説明できなかった。近日点付近で、表面やレゴリス中の薄い液体様の膜にある18O濃集H2Oとの同位体交換をモデル化すると、観測された濃集を再現できる。炭素同位体の季節変動は酸素より小さかった。",
-   "why": "火星大気とローバー観測の10年規模の同位体記録であり、水との相互作用にも示唆を与える中核的な論文。",
-   "score": 8.9
+   "relevance": 1,
+   "buzz": 2,
+   "summary_ja": "メンドシーノ海洋トランスフォーム断層で発生した Mw 6.5 超の3地震(1994年と2024年の Mw 7.0 を含む)の余震系列を解析した。大陸の同規模の横ずれ地震に比べ余震数は一桁少なく、地震間の応力トリガリングが限られることが示唆される。一方で余震域は対数時間で共地震破壊域の外へ拡大しており、伝播する非地震性すべりの過渡現象を反映している可能性がある。これは、低地震カップリング区間が隣接する高カップリング区間の地震で誘発される非地震性すべりを受け入れつつ、地震破壊の伝播を抑えうることを示唆する。",
+   "why": "地球の海洋トランスフォーム断層の地震学であり、読者の関心分野との関連は薄い。",
+   "score": 1.9
   },
   {
-   "journal": "Nature",
-   "jweight": 1.0,
-   "title": "Salty grains in Saturn’s outermost ring formed from the slow freeze of plumes from the moon Enceladus",
-   "doi": "https://doi.org/10.1038/d41586-026-03489-y",
-   "url": "https://doi.org/10.1038/d41586-026-03489-y",
-   "date": "2026-11-11",
+   "journal": "EPSL",
+   "jweight": 0.7,
+   "title": "Thermal evolution of a translithospheric diapir, evidence from a high-pressure granulite (French Massif Central)",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120333",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120333",
+   "date": "2026-09-21",
    "authors": [
-    "Kevin Peter Hand"
+    "Luc de Hoÿm de Marien",
+    "Pavla Štípská",
+    "Petra Maierová",
+    "Pavel Pitra",
+    "Karel Schulmann",
+    "Andrew R.C. Kylander-Clark"
    ],
-   "n_authors": 1,
-   "abstract": "",
+   "n_authors": 14,
+   "abstract": "The Variscan rock record of the French Massif Central (FMC) provides compelling evidence for early Carboniferous crust–mantle interaction during subduction and exhumation of continental high-pressure metamorphic units, but the underlying geodynamic mechanisms remain elusive. The crustal pressure–temperature–time–fluid evolution during this interaction is investigated through a case study of a high-pressure mafic granulite, integrating petrology, phase equilibrium modelling, trace element thermometry, and U–Pb geochronology. Partial replacement of garnet–clinopyroxene–plagioclase–rutile assemblage by amphibole and titanite records hydration and pronounced cooling from ∼900–975°C to ∼700–800°C, under limited decompression from ∼13 to 11 kbar. The age of this event is constrained at 354.6 ± 4.6[8.5] Ma by U–Pb dating of titanite. Subsequent ilmenite–clinopyroxene pseudomorphs after titanite indicate further decompression below ∼9 kbar. The minimum age of this decompression is given by apatite and rutile U–Pb dates of 348.5 ± 2.6[8.5] Ma and 337.9 ± 1.7[7.0] Ma, respectively. The FMC granulites are associated with mantle rocks, and the inferred P–T conditions compare with those of mantle xenoliths from volcanic regions worldwide, suggesting an interaction with the mantle during exhumation. One-dimensional thermal models of crustal translithospheric diapirs consistently predict cooling in the shallow lithospheric mantle within the ranges 700–1000°C and 10–15 kbar. Therefore, the peak conditions and subsequent cooling could result from the thermal interaction of a crustal diapir and the mantle. We propose a new petrogenetic model for the FMC where translithospheric diapirs play a central role.",
    "cited_by": 0,
    "hits": [
-    "enceladus"
+    "titan"
    ],
-   "relevance": 8,
-   "buzz": 6,
-   "summary_ja": "",
-   "why": "エンケラドスのプルームと土星E環に関わるテーマだが、アブストラクトがなく詳細は不明。タイトルからは氷衛星研究との関連が強い。",
-   "score": 7.6
+   "relevance": 1,
+   "buzz": 1,
+   "summary_ja": "フランス中央山地の高圧マフィック・グラニュライトについて、岩石学、相平衡モデリング、微量元素温度計、U–Pb年代測定を組み合わせて解析した。ざくろ石-単斜輝石-斜長石-ルチル組合せが角閃石とチタン石に部分置換されており、約900–975°Cから約700–800°Cへの冷却と、約13から11 kbarへの限定的な減圧が記録されている。チタン石のU–Pb年代は354.6 ± 4.6 Maで、その後さらに約9 kbar未満まで減圧したことが示された。1次元熱モデルは、リソスフェアを貫く地殻ダイアピルが浅部リソスフェアマントル内で700–1000°C、10–15 kbarの範囲に冷却することを予測する。",
+   "why": "地球の大陸地殻-マントル相互作用に関する研究で、火星・氷衛星・アストロバイオロジーとは直接関係しない。",
+   "score": 1.6
   },
   {
-   "journal": "Nature Astronomy",
-   "jweight": 1.0,
-   "title": "Planetary protection for the next era of Mars exploration",
-   "doi": "https://doi.org/10.1038/s41550-026-03018-x",
-   "url": "https://doi.org/10.1038/s41550-026-03018-x",
-   "date": "2026-11-16",
+   "journal": "GCA",
+   "jweight": 0.7,
+   "title": "Accessory mineral control on δ88/86Sr variation during granitic magma evolution and implications for tracing fluid-melt interaction",
+   "doi": "https://doi.org/10.1016/j.gca.2026.10.002",
+   "url": "https://doi.org/10.1016/j.gca.2026.10.002",
+   "date": "2026-10-05",
    "authors": [
-    "Karen Olsson‐Francis",
-    "Peter T. Doran",
-    "Mark A. Sephton",
-    "Jonathan Carter",
-    "Petra Rettberg",
-    "María‐Paz Zorzano"
+    "Nian-Qin Zhang",
+    "Yi‐Xiang Chen",
+    "Kun Zhou",
+    "Xu-Qi Chen",
+    "Fang Huang"
    ],
-   "n_authors": 11,
-   "abstract": "",
+   "n_authors": 5,
+   "abstract": "The formation and differentiation of granitic magmas play a fundamental role in the growth and evolution of continental crust, as well as in the formation of metal ore deposits. Stable Sr isotopes show great potential for tracing fluid-melt interaction during the extensive evolution of granitic magmas. However, the effect of mineral crystallization on stable Sr isotope variation in such magmas remains poorly constrained. To address this issue, we report the stable Sr isotope composition ( δ 88/86 Sr) of syn -exhumation granites from the Sulu ultrahigh-pressure metamorphic belt. The granites exhibit a wide range of δ 88/86 Sr values (−0.63‰ to + 0.53‰), mostly lower than those of the mantle and upper continental crust. Petrological observations and whole-rock geochemical compositions suggest that such variations cannot be explained by post-magmatic alteration or assimilation of country rocks. In addition, thermodynamic modeling shows that partial melting of granitic gneiss produces only a slight decrease in δ 88/86 Sr values of ca. 0.13‰. Although feldspar crystallization can induce significant stable Sr isotope fractionation, the opposing effects of plagioclase and K-feldspar largely offset each other and cannot explain the observed values. Furthermore, trace element ratios (Zr/Hf, K/Rb, and Nb/Ta) provide no evidence for extensive fluid-melt interaction. Instead, mineral-separate analyses show that apatite has substantially higher δ 88/86 Sr values than those of the corresponding whole rocks, whereas titanite and epidote-group minerals show smaller and more variable heavy isotope offsets. The stable Sr isotope variations in the granites correlate with geochemical proxies of accessory mineral fractionation, such as P 2 O 5 , TiO 2 , Nb/Zr, and LREEs, suggesting that the crystallization of such Sr-rich minerals is the dominant factor driving δ 88/86 Sr values to as low as −0.63‰. Therefore, fractional crystallization of accessory minerals is proposed to be the primary mechanism for generating light Sr isotopic compositions in the Sulu syn -exhumation granites. These results underscore the pivotal role of accessory minerals in the geochemical evolution of granitic magmas and demonstrate the sensitivity of stable Sr isotopes as tracers of accessory mineral behavior during crustal differentiation. While stable Sr isotopes have great potential for tracing fluid-melt interaction, caution should be exercised because only samples with δ 88/86 Sr values lower than ca. −0.6‰ can be more reliably ascribed to such a process. Moreover, by combining Sr-Ba-Fe isotope systematics, we can decode a progressive crystallization sequence from feldspar and mica crystallization to late-stage precipitation of Fe-Ti oxides and Sr-rich accessory minerals during granitic magma evolution.",
+   "cited_by": 1,
+   "hits": [
+    "titan"
+   ],
+   "relevance": 1,
+   "buzz": 1,
+   "summary_ja": "蘇魯超高圧変成帯の脱上昇同時期花崗岩の安定Sr同位体比(δ88/86Sr)を報告している。値は−0.63‰から+0.53‰と広く、多くはマントルや上部大陸地殻より低い。変質、地殻物質の同化、部分融解、長石の結晶分化、流体-融体相互作用の微量元素指標では変動を説明できない。鉱物分離の分析から、アパタイトが対応する全岩よりかなり高いδ88/86Sr値を持つことが示されている。",
+   "why": "花崗岩質マグマの地球化学で、惑星科学やアストロバイオロジーとの関連は低い。",
+   "score": 1.6
+  },
+  {
+   "journal": "GCA",
+   "jweight": 0.7,
+   "title": "Molybdenum redistribution and extreme isotope fractionation in a Barremian weathering profile revealed by scientific drilling",
+   "doi": "https://doi.org/10.1016/j.gca.2026.10.014",
+   "url": "https://doi.org/10.1016/j.gca.2026.10.014",
+   "date": "2026-10-14",
+   "authors": [
+    "QIN LIN",
+    "Philip A.E. Pogge von Strandmann",
+    "Ming-Dao Sun",
+    "Peng‐Li He",
+    "Le Zhang",
+    "Man Li"
+   ],
+   "n_authors": 10,
+   "abstract": "Molybdenum (Mo) redistribution and isotope fractionation during continental weathering provide an important link in the biogeochemical cycles in Earth’s history, but their preservation in ancient weathering systems remains poorly constrained. Complete palaeo-weathering profiles are rarely recovered without overprinting by modern weathering. Here, we investigate Mo mobility and isotope behavior in the YSDP-1 scientific-drilling core from the Chaoyang Basin, Northeast China. The continuous core intersects a ∼ 17 m-thick Barremian palaeo-weathering profile preserved between two andesite flows, which records a downward gradation from calcrete to saprolite. Relative to the fresh andesite, the calcrete is Mo-depleted and shows limited Mo isotope fractionation. In contrast, through the gradational transition into saprolite, whole-rock Mo concentrations increase and the δ 98 Mo values decrease significantly to a minimum of −3.36‰. In-situ analyses show that Mo is concentrated mainly in saprolite-hosted pyrite, and pyrite separates yield lighter δ 98 Mo values of −3.43 to −3.66‰. Together with Fe speciation and S content variations, the results indicate depth-focused sequestration of isotopically light Mo at a subsurface Fe–S reduction front in a redox-stratified weathering system. Such profiles may act as isotopic filters, substantially altering exported Mo isotope signatures with little change in Mo concentrations or fluxes, with implications for marine and lacustrine records and low-oxygen weathering on early Earth and Mars.",
    "cited_by": 0,
    "hits": [
     "mars"
    ],
-   "relevance": 7,
-   "buzz": 4,
-   "summary_ja": "",
-   "why": "火星探査における惑星保護を扱う論考と思われるが、アブストラクトがなく内容は不明。",
-   "score": 6.4
+   "relevance": 1,
+   "buzz": 1,
+   "summary_ja": "中国東北部の朝陽盆地で掘削された YSDP-1 コアから、バレミアン期の古風化プロファイル(厚さ約17 m)におけるMoの再分配と同位体分別を調べた。カルクリートではMoが欠乏し同位体分別は小さい一方、サプロライトに向かってMo濃度が増加しδ98Moは最小−3.36‰まで低下する。Moは主にサプロライト中の黄鉄鉱に濃集し、黄鉄鉱のδ98Moは−3.43から−3.66‰である。Fe化学種やS含有量と合わせ、酸化還元成層した風化系の地下のFe–S還元フロントで軽いMoが隔離されたと解釈されている。",
+   "why": "地球の古風化とMo同位体の研究で、火星の風化や居住可能性との直接的な関連は示されていない。",
+   "score": 1.6
   },
   {
-   "journal": "Nature Astronomy",
-   "jweight": 1.0,
-   "title": "Antarctica as a guide for future astrobiology ethics",
-   "doi": "https://doi.org/10.1038/s41550-026-03019-w",
-   "url": "https://doi.org/10.1038/s41550-026-03019-w",
-   "date": "2026-11-16",
-   "authors": [
-    "Emma Johanna Puranen"
-   ],
-   "n_authors": 1,
-   "abstract": "",
-   "cited_by": 0,
-   "hits": [
-    "astrobiolog"
-   ],
-   "relevance": 5,
-   "buzz": 3,
-   "summary_ja": "",
-   "why": "アストロバイオロジーの倫理に関わる論考と思われるが、アブストラクトがなく内容は不明。",
-   "score": 4.9
-  },
-  {
-   "journal": "Science Advances",
+   "journal": "GCA",
    "jweight": 0.7,
-   "title": "Raising mountains for a habitable Earth",
-   "doi": "https://doi.org/10.1126/sciadv.aei2764",
-   "url": "https://doi.org/10.1126/sciadv.aei2764",
-   "date": "2026-11-13",
+   "title": "Titanium isotopic insight into variable melt source contributions within the Aleutian Island Arc",
+   "doi": "https://doi.org/10.1016/j.gca.2026.11.026",
+   "url": "https://doi.org/10.1016/j.gca.2026.11.026",
+   "date": "2026-11-01",
    "authors": [
-    "Matthijs A. Smit",
-    "Douwe van Hinsbergen",
-    "Carl Guilmette",
-    "Ellen Kooijman",
-    "Amberlee King",
-    "Jamie Cutts"
+    "Emma G. Ling",
+    "Sarah M. Aarons",
+    "Zhe James Zhang",
+    "Linqing Huang",
+    "Aleisha C. Johnson",
+    "Mauricio Ibáñez-Mejía"
    ],
-   "n_authors": 7,
-   "abstract": "The formation of mountain belts (orogens) elevates rocks above sea level, making them available for chemical weathering and altering the composition of the atmosphere and oceans, which in turn control habitability. Peak-metamorphic pressures recorded by crustal rocks buried in orogens increased between 2.7 to 2.2 and 0.8 to 0.7 billion years ago, indicating that rocks could be buried deeper and that orogens could grow substantially thicker after each of these periods. The two periods of orogenic growth were broadly synchronous with major increases in terrigenous element and nutrient fluxes and changes in biological sulfur metabolism and surface oxygenation. These changes could be explained by enhanced weathering of higher mountains. The findings support the hypothesis that there are first-order mechanistic links between secular geodynamic change and changes in Earth system state and habitability, which shaped the conditions for the evolution of complex life during the past 3 billion years.",
+   "n_authors": 9,
+   "abstract": "Titanium (Ti) isotopes are a well-established tracer of magmatic differentiation capable of providing useful insight into the magma series and geodynamic setting of rock formation. Titanium isotope fractionation is sensitive to magma conditions such as oxygen fugacity, water content, and the initial geochemical composition of a melt, however during plate subduction the relative contribution of the partial melt from the subducting slab on the Ti isotopic composition of the resulting melt is still under exploration. In this study, we use a suite of samples from two relatively modern, well-characterized sites from the Aleutian arc to probe how formation processes (e.g., partial melting versus fractional crystallization/magma recharge mixing) influence the measured Ti isotope compositions. We present Ti isotopic compositions for 18 volcanic samples from two Aleutian arc sites: Western Aleutian seafloor lavas from the Ingenstrem Depression, and lavas from Korovin Volcano on Atka Island. Samples dredged from the Ingenstrem Depression span a relatively narrow range in Ti isotopic composition (δ 49 Ti = +0.031 to + 0.147 ‰) with a relatively muted trend in Ti isotopic composition with respect to increasing silica content (SiO 2 = 50.41 to 66.30 wt%). The samples from Korovin Volcano span a larger range (δ 49 Ti = -0.021 to + 0.355 ‰) and include more pronounced Ti isotopic variations with increasing silica content (SiO 2 = 50.38 to 64.09 wt%). We use thermodynamic modeling (THERMOCALC software 3.53c) to predict isotope fractionation and show that the rocks from Ingenstrem Depression formed through melt-fluxed melting whereby between 0–70% of cool, hydrous-siliceous partial melt of subducting mid ocean ridge basalt (MORB) in eclogite facies mixes with mantle peridotite as it is heated and decompresses in the mantle wedge. In contrast, the Korovin Volcano dataset is likely formed by fractional crystallization from basalt to dacite with a potential role for recharge mixing of mantle derived melts. The data presented here suggest both a mantle wedge and subducting slab contribution for rocks from Ingenstrem Depression, further highlighting how Ti isotopes can be used to elucidate mass transfer in subduction zones and quantify variable source contributions in arc magmas, thereby providing significant insight into rock formation processes beneath Earth’s surface.",
    "cited_by": 0,
    "hits": [
-    "habitab"
+    "titan"
    ],
-   "relevance": 4,
-   "buzz": 5,
-   "summary_ja": "造山帯の形成は岩石を海面上に持ち上げて化学風化を促し、大気・海洋組成を通じて居住可能性を左右する。造山帯の地殻岩石が記録する変成ピーク圧力は、27〜22億年前と8〜7億年前の後に増加しており、造山帯がより厚く成長できたことを示す。この2つの時期は、陸源の元素・栄養塩フラックスの増加、生物学的な硫黄代謝の変化、表層の酸化と同時期である。より高い山地での風化の強化がこれらの変化を説明しうるとし、地球ダイナミクスの長期変化と居住可能性の関連を支持する。",
-   "why": "地球の居住可能性と生命進化の地質学的要因を扱い、アストロバイオロジーの背景として参考になる。",
-   "score": 4.6
+   "relevance": 1,
+   "buzz": 1,
+   "summary_ja": "アリューシャン弧の2地点(イングンストレム凹地の海底溶岩とアトカ島コロヴィン火山の溶岩)の火山岩18試料についてTi同位体組成を報告している。イングンストレム凹地のδ49Tiは+0.031から+0.147‰と狭い範囲で、コロヴィン火山は−0.021から+0.355‰とより広く、SiO2増加に伴う変化も顕著である。熱力学モデリングを用い、部分融解と分別結晶作用・マグマ再充填混合が Ti 同位体組成に与える影響を検討している。",
+   "why": "島弧マグマのTi同位体という地球化学研究で、読者の関心分野からは外れる。",
+   "score": 1.6
   },
   {
-   "journal": "Science",
-   "jweight": 1.0,
-   "title": "The cryosphere beyond a planetary safe operating space",
-   "doi": "https://doi.org/10.1126/science.aef5636",
-   "url": "https://doi.org/10.1126/science.aef5636",
-   "date": "2026-11-12",
+   "journal": "Nature Communications",
+   "jweight": 0.6,
+   "title": "Wafer-scale thin-film PZT photonic integrated circuits enabling multi-terabit optical transmission",
+   "doi": "https://doi.org/10.1038/s41467-026-79721-0",
+   "url": "https://doi.org/10.1038/s41467-026-79721-0",
+   "date": "2026-11-20",
    "authors": [
-    "Rashid Sumaila",
-    "Johan Rockström",
-    "Deliang Chen",
-    "Ingo Fetzer",
-    "Haipeng Feng",
-    "Gustaf Hugelius"
+    "Zehao Guan",
+    "Yujun Xie",
+    "Jungan Wang",
+    "He Yu",
+    "Wei Lin",
+    "Peng Wang"
    ],
-   "n_authors": 31,
-   "abstract": "The cryosphere plays a vital role in regulating planetary dynamics and habitability, yet it remains unclear whether its essential functions remain within a safe operating space (SOS) amid Anthropocene change. Here, we propose a cryosphere SOS and systematically evaluate its contributions to Earth system resilience using the planetary boundaries framework. Multiple lines of evidence indicate an accelerating and partly irreversible loss of cryospheric integrity, driven by amplifying feedbacks. Key cryospheric control variables either have left or are committed to departing from Holocene-like conditions. We conclude that the cryosphere has breached its SOS and is on a trajectory that locks in long-term risks for human societies and ecosystems. Safeguarding planetary resilience therefore requires explicit consideration of cryosphere change and its interactions across the Earth system.",
-   "cited_by": 1,
-   "hits": [
-    "habitab"
-   ],
-   "relevance": 2,
-   "buzz": 7,
-   "summary_ja": "地球の氷圏が、人新世の変化の中で安全な活動領域(SOS)内にとどまっているかを、プラネタリー・バウンダリーの枠組みで評価した研究である。氷圏の完全性は、増幅するフィードバックにより加速的かつ部分的に不可逆な喪失が進んでいる。主要な制御変数は、完新世的な状態からすでに逸脱したか、逸脱が確定している。著者らは氷圏がSOSを逸脱したと結論し、地球システムの強靭性には氷圏変化の考慮が必要だと述べる。",
-   "why": "地球氷圏の話題で、惑星の居住可能性という文脈とはやや接点があるものの、読者の中心的関心からは外れる。",
-   "score": 4.3
-  },
-  {
-   "journal": "Nature",
-   "jweight": 1.0,
-   "title": "Low-power 2D CFETs using single-crystal high-κ dielectrics",
-   "doi": "https://doi.org/10.1038/s41586-026-11272-2",
-   "url": "https://doi.org/10.1038/s41586-026-11272-2",
-   "date": "2026-11-11",
-   "authors": [
-    "Ni Yang",
-    "Ji Zhang",
-    "Yu-Cheng Lu",
-    "Zeheng Wang",
-    "Yu-Ming Chang",
-    "Fangyuan Zheng"
-   ],
-   "n_authors": 30,
-   "abstract": "Aggressive scaling in silicon electronics-although essential for improving power, performance, area and cost-faces increasing challenges in further reducing power consumption due to electrostatic and leakage constraints1,2. Achieving efficient operation at low supply voltages therefore requires new materials and gate-stack engineering strategies. Two-dimensional (2D) semiconductors offer intrinsic advantages because their atomic thickness affords excellent gate control, and their sizable bandgaps suppress off-state current. However, a major obstacle is the imperfect interface between 2D channels and gate dielectrics, which degrades subthreshold swing, hysteresis and bias-temperature instability3. Here we demonstrate that a wafer-scale, transferable, single-crystal anatase titanium dioxide dielectric can be van der Waals integrated with 2D transition metal dichalcogenides. The obtained pristine 2D-dielectric interface enables subthreshold swing close to the thermal limit, record-low hysteresis and well-matched transfer characteristics for both n- and p-type enhancement-mode field-effect transistors. Building on this, we demonstrate complementary field-effect transistors, whose inverters achieve high voltage gain and large noise margins with subpicowatt static power consumption. These results highlight the promise of 2D semiconductors for ultra-low-power operation.",
+   "n_authors": 10,
+   "abstract": "Meeting the escalating demand for high-capacity optical communication requires electro-optic (EO) photonic integrated circuits (PICs) that combine terabit-scale capacity, energy efficiency and scalable manufacturing. Here we establish thin-film lead zirconate titanate (PZT) as a wafer-scale photonic integration platform on 8-inch SiO 2 /Si substrates. Uniform, high-quality PZT thin films are prepared using a scalable chemical solution deposition–magnetron sputtering process, followed by a deep ultraviolet (DUV) stepper-based wafer-scale manufacturing process. Low propagation loss and low in-plane optical anisotropy provide the precise phase control and layout flexibility required for large-scale integration, supporting high-performance arrayed waveguide gratings (AWGs). Ferroelectric-domain engineering activates the strong Pockels response, enabling Mach–Zehnder modulators (MZMs) with a half-wave voltage–length product ( V π L) of 1.19 V·cm, a broadband EO response extending to 70 GHz and data rates up to 224 Gbps. We further demonstrate a monolithically integrated 16-channel wavelength-division multiplexing transmitter supporting 3.2-Tbps-class optical interconnects. These results establish PZT as a practical wafer-scale platform for multi-terabit photonic systems.",
    "cited_by": 0,
    "hits": [
     "titan"
    ],
    "relevance": 0,
-   "buzz": 3,
-   "summary_ja": "ウェハースケールで転写可能な単結晶アナターゼ型TiO2高誘電率絶縁膜を、2次元遷移金属ダイカルコゲナイドとファンデルワールス集積した研究である。清浄な界面により、サブスレッショルドスイング(subthreshold swing)は熱限界に近く、ヒステリシスは記録的に低く、n型・p型ともエンハンスメント型トランジスタが得られた。これらを用いた相補型FETのインバータは、高い電圧利得と大きなノイズマージン、サブピコワット級の静的消費電力を示した。",
-   "why": "半導体デバイス研究であり、読者の関心分野とは無関係。",
-   "score": 1.9
-  },
-  {
-   "journal": "GCA",
-   "jweight": 0.7,
-   "title": "From source to sink: complex dual role of the Kairei hydrothermal plume in deep ocean trace metal cycling at the Central Indian Ridge",
-   "doi": "https://doi.org/10.1016/j.gca.2026.09.018",
-   "url": "https://doi.org/10.1016/j.gca.2026.09.018",
-   "date": "2026-09-22",
-   "authors": [
-    "Nico Fröhberg",
-    "Katja Schmidt",
-    "Sandra Poehle",
-    "Ignacio Pedre",
-    "Maren Walter",
-    "Jonathan Mette"
-   ],
-   "n_authors": 10,
-   "abstract": "Hydrothermal venting represents a significant source of trace metals to the deep ocean, but key aspects of these fluxes remain poorly constrained. Whether high-temperature hydrothermal venting at a particular site represents a net source for fluid-sourced trace metals to the open ocean is determined by complex processes during plume mixing, which can also make them sinks for (seawater-derived) elements. We present a comprehensive dataset of dissolved trace metals (Cd, Co, Cu, Fe, Ga, Mn, Mo, Ni, Pb, U, V, and REY) for endmember fluids and from water column profiles covering the buoyant plume and the non-buoyant plume up to 30 km away from the mixed ultramafic/mafic-hosted Kairei Hydrothermal Field (KHF) at the Central Indian Ridge and a background station at 56 km distance. The non-buoyant plume was sampled with a newly developed autonomous trace metal rosette (TMR) for contamination-free hydrocasts. The KHF acts as a significant source of Fe, Mn, Co, and to a lesser degree of Ga to the deep Indian Ocean, with size fractionation revealing Fe being present predominantly as small particles (53 % at 0.2–0.8 µm) and large colloids (28 % at 0.015–0.2 µm) which are removed quickly near the source, while the soluble fraction (<0.015 µm) is more stable and exported to the deep ocean. Similarly, Pb was found to be largely present in the small particulate fraction (95 %) close to the source and being rapidly removed as particulate sulfides with little effect on dissolved concentrations, while all other investigated elements were found largely in the soluble fraction (<0.015 µm). Conversely, the plume effectively scavenges REY, V, and notably Cd from the water column as well as the fluid-sourced contributions, with near-quantitative Cd removal observed in the plume despite ∼100-fold endmember enrichment. Copper and Ni exhibit complex non-conservative behavior, both being depleted relative to background seawater in the near-field, likely reflecting initial sulfide precipitation; Cu is subsequently re-enriched in the far-field via oxidative release during plume aging, while any comparable Ni release likely falls below our detection limit given its lower endmember concentration, making the plume an apparent net sink for Ni. The relatively low H 2 S/Fe ratio of 0.90 at Kairei compared to other hydrothermal systems likely favors greater metal transport to the water column. These findings demonstrate that hydrothermal contributions to marine trace metal budgets are highly system-specific, controlled by endmember chemistry and plume processes, highlighting the need for detailed multi-element investigations across diverse hydrothermal settings.",
-   "cited_by": 0,
-   "hits": [
-    "hydrothermal vent"
-   ],
-   "relevance": 1,
    "buzz": 2,
-   "summary_ja": "中央インド洋海嶺のKairei熱水域を対象に、端成分流体と浮力プルーム・非浮力プルーム(最大30 km)の溶存微量金属を調べた研究である。この熱水域はFe、Mn、Co、そして程度は小さいがGaの深層インド洋への供給源となる。Feは主に小粒子とコロイドとして存在して発生源近くで速やかに除去され、可溶画分はより安定で深海へ輸送される。Pbは主に粒子として存在して硫化物として急速に除去されると報告された。",
-   "why": "熱水活動に関する話題ではあるが、地球の海洋化学が中心で、読者の関心との関連は限定的。",
-   "score": 1.9
+   "summary_ja": "8インチSiO2/Si基板上で、薄膜チタン酸ジルコン酸鉛(PZT)をウエハスケールのフォトニック集積プラットフォームとして構築した。化学溶液堆積とマグネトロンスパッタを組み合わせて成膜し、DUVステッパーで加工して、低伝搬損失と低い面内光学異方性を実現している。強誘電ドメイン制御によりMZMのVπLは1.19 V·cm、EO応答は70 GHzまで、データレートは最大224 Gbpsに達した。さらに16チャネルWDM送信器を集積し、3.2 Tbps級の光インターコネクトを実証している。",
+   "why": "光通信用フォトニクスの研究で、火星・氷衛星・アストロバイオロジーとは無関係。",
+   "score": 1.2
   }
  ]
 }
