@@ -3,7 +3,7 @@
   "top_n": 8,
   "candidate_limit": 40,
   "model": "claude-sonnet-5-5",
-  "contact_email": "you@example.com",
+  "contact_email": "taiko.hirai@elsi.jp",
   "journals": {
     "Nature": {
       "issn": [
