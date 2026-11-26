@@ -1,7 +1,7 @@
 {
-  "days_back": 8,
+  "days_back": 16,
   "top_n": 8,
-  "candidate_limit": 40,
+  "candidate_limit": 48,
   "model": "claude-sonnet-5-5",
   "contact_email": "taiko.hirai@elsi.jp",
   "journals": {
