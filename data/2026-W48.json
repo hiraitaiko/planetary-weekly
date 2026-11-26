@@ -5,223 +5,212 @@
  "n_scanned": 824,
  "picks": [
   {
-   "journal": "GCA",
+   "journal": "EPSL",
    "jweight": 0.7,
-   "title": "Electrostatic discharge triggers troilite‑to‑magnetite oxidation in Mars dust activity",
-   "doi": "https://doi.org/10.1016/j.gca.2026.10.025",
-   "url": "https://doi.org/10.1016/j.gca.2026.10.025",
-   "date": "2026-10-20",
+   "title": "Rapid formation of meter-scale ripples on modern Mars",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120416",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120416",
+   "date": "2026-10-24",
    "authors": [
-    "Xiaojia Zeng",
-    "Xiongyao Li"
+    "Amelia Ascione",
+    "L. Ojha",
+    "M. Chojnacki"
    ],
-   "n_authors": 2,
+   "n_authors": 3,
    "abstract": "",
    "cited_by": 0,
    "hits": [
     "mars"
    ],
    "relevance": 8,
-   "buzz": 6,
+   "buzz": 5,
    "summary_ja": "",
-   "why": "火星のダスト活動に伴う静電放電による鉱物酸化という火星表層化学に関する題材だが、アブストラクトがなく内容を確認できない。",
-   "score": 7.3
-  },
-  {
-   "journal": "GCA",
-   "jweight": 0.7,
-   "title": "Thermodynamics of NaCl(aq) from 230 to 2000 K and from 0.1 to 10,000 MPa: Applications to Earth and Other Ocean Worlds",
-   "doi": "https://doi.org/10.1016/j.gca.2026.10.019",
-   "url": "https://doi.org/10.1016/j.gca.2026.10.019",
-   "date": "2026-10-23",
-   "authors": [
-    "Joanna M. Brown",
-    "O. Bollengier",
-    "Ula Jones",
-    "Steven Douglas Vance",
-    "Baptiste Journaux"
-   ],
-   "n_authors": 5,
-   "abstract": "We present a new Gibbs energy representation for aqueous NaCl, based on new sound speed and phase equilibrium measurements, using local basis functions. Throughout, NaCl(aq) denotes the bulk aqueous component—the sum of NaCl 0 , Na + and Cl − —rather than the neutral complex, with the degree of dissociation implicit in the measurements rather than imposed. This comprehensive equation of state, valid for pressures to 10 000 M P a , temperatures from 230 K to 2000 K , and molality to 7 m o l k g − 1 , allows us to address chemical processes within Earth and interior structure and evolution of large icy moons with possible oceans. The region below 500 M P a at temperatures above 500 K , which contains water’s saturation curve and critical point, is excluded for want of constraining measurements; within the domain represented the fluid is a single phase. In regimes unconstrained by data, it assumes near-gas behavior at high temperatures and volume mixing of water and salt at extreme pressures. Differentiation of the representation yields all equilibrium properties, including volumes, specific heat capacities, and chemical potentials. The model is validated by its accurate prediction of ice Ih and VI melting and brucite dehydration in saline solutions, and by its reproduction of antigorite dehydration in pure water through two changes in reaction product to beyond 6000 M P a . We describe three applications of the Gibbs energy representation. (1) The depth during subduction of the antigorite dehydration reaction in the presence of saline geofluids is estimated to be reduced by 2 k m to 4 k m per mole of NaCl in solution, substantially less than the up to 10 k m per mole implied by previously inferred pressure-dependent water activities. (2) A H 2 O − NaCl phase diagram to 1000 M P a and 230 K to 400 K identifies the pressure-variant eutectics for hydrohalite and disodium chloride decaheptahydrate, and places the cenotectic—the absolute limit of liquid stability—at 205 M P a , 235 K and 3.90 m o l k g − 1 , where the liquid coexists with ice Ih, ice II and disodium chloride decaheptahydrate rather than with hydrohalite. (3) Icy moons: structural models of Ganymede, Callisto, and two Titan cases with 1.90 m o l k g − 1 aqueous NaCl show that melting point suppression stabilizes ices II, III, V, and VI, and that ices II and III can be buoyant in the coexisting fluid, with the sense of the ice II contrast reversing between 50 and 100 g k g − 1 . The resulting co-occurrence of ices II and III, not previously reported, admits multiphase overturning and implies that salinity governs the geodynamics of these > 100 k m lithospheres. Finally, we set out how a bulk Gibbs energy surface interfaces with species-based frameworks such as HKF and the Deep Earth Water model, and propose that the pressure derivative of the surface can be used to constrain the degree of association at high pressure.",
-   "cited_by": 0,
-   "hits": [
-    "titan",
-    "ganymede",
-    "callisto",
-    "icy moon",
-    "ocean world"
-   ],
-   "relevance": 8,
-   "buzz": 4,
-   "summary_ja": "NaCl水溶液について、新たな音速・相平衡測定に基づくギブズエネルギー表現を提示している。適用範囲は230〜2000 K、0.1〜10,000 MPa、モル濃度7 mol/kgまでである。氷Ihおよび氷VIの融解、ブルーサイトの脱水、反ちがい石の脱水などの予測で検証されたとしている。地球内部の化学過程や、海を持つ可能性のある大型氷衛星の内部構造・進化への応用が述べられている。",
-   "why": "氷衛星の内部海・氷殻を扱う際の基礎となる塩水の状態方程式であり、読者の関心に直結する。",
-   "score": 6.7
-  },
-  {
-   "journal": "GCA",
-   "jweight": 0.7,
-   "title": "Constraining the effects of source regions and parent-body processes on soluble organic matter in carbonaceous chondrites",
-   "doi": "https://doi.org/10.1016/j.gca.2026.11.033",
-   "url": "https://doi.org/10.1016/j.gca.2026.11.033",
-   "date": "2026-11-01",
-   "authors": [
-    "Mingtan Dong",
-    "Wei Yang",
-    "Yamei Li",
-    "Li Quan",
-    "H.G. Changela",
-    "Siyu Li"
-   ],
-   "n_authors": 8,
-   "abstract": "",
-   "cited_by": 0,
-   "hits": [
-    "carbonaceous chondrite"
-   ],
-   "relevance": 8,
-   "buzz": 4,
-   "summary_ja": "",
-   "why": "炭素質コンドライトの可溶性有機物と母天体過程を扱う、前生物有機化学に関連する題材だが、アブストラクトがなく内容を確認できない。",
-   "score": 6.7
-  },
-  {
-   "journal": "GCA",
-   "jweight": 0.7,
-   "title": "Oued Chebeika 002 at the nanoscale: microstructures, composition and comparison with CI-like materials",
-   "doi": "https://doi.org/10.1016/j.gca.2026.11.028",
-   "url": "https://doi.org/10.1016/j.gca.2026.11.028",
-   "date": "2026-11-01",
-   "authors": [
-    "Roberto Conconi",
-    "Corentin Le Guillou",
-    "Sophie Meuret",
-    "Valentine Megevand",
-    "Adrien Teurtrie",
-    "Sylvain Laforet"
-   ],
-   "n_authors": 8,
-   "abstract": "Oued Chebeika 002, a CI (Ivuna-type) carbonaceous chondrite recovered in the Moroccan desert in 2024, represents one of the rarest and most pristine samples available to investigate early Solar System processes. In this study, we present a comprehensive nanoscale characterization of the main components of Oued Chebeika 002 (i.e. phyllosilicates, sulfides, magnetite, and carbonates) using transmission electron microscopy, with the aim of resolving its submicrometric mineralogical heterogeneity, constraining the physicochemical conditions of aqueous alteration on its parent body, and comparing these features with those observed in other CI chondrites and samples returned from asteroids Ryugu and Bennu. Our observations reveal a complex mineral assemblage dominated by phyllosilicates intimately associated with Fe-sulfides, magnetite, and carbonates. Overall, the mineral assemblage closely resembles those of CI chondrites and samples from Ryugu and Bennu, suggesting that aqueous alteration processes were broadly similar across their parent body(ies). In particular, the occurrence of dolomite is consistent with precipitation from brines, while its compositional zoning and complex microstructures, including mottled and ribbon-like textures, suggest formation through metastable precursors and subsequent dissolution–reprecipitation and re-equilibration processes. Magnetite spherulites and spherules likewise record distinct non-equilibrium processes. The former is characterized by a radiating microstructure and likely formed through a non-classical crystallization pathway from supersaturated solutions, whereas the latter displays surface etch pits indicative of dissolution. Taken together, the microstructural characteristics of both carbonate and magnetite are indicative of formation and alteration under dynamic, non-equilibrium conditions, highlighting the evolving nature of aqueous solutions in CI parent body(ies).",
-   "cited_by": 0,
-   "hits": [
-    "bennu",
-    "ryugu",
-    "carbonaceous chondrite"
-   ],
-   "relevance": 7,
-   "buzz": 4,
-   "summary_ja": "2024年にモロッコで回収されたCI(イヴナ型)炭素質コンドライト Oued Chebeika 002 を透過型電子顕微鏡でナノスケール解析している。フィロケイ酸塩、硫化物、マグネタイト、炭酸塩が密接に共存する鉱物組合せで、他のCIコンドライトやリュウグウ・ベンヌ試料と類似するとしている。ドロマイトはブラインからの沈殿と整合的で、累帯構造や複雑な微細組織は準安定前駆体を経た溶解・再沈殿を示唆するという。マグネタイトのスフェルライトや球状粒子も非平衡過程を記録しているとされる。",
-   "why": "水質変成を受けた始原的隕石で、リュウグウ・ベンヌ試料との比較があり、アストロバイオロジー関連の有機物・水環境研究に近い。",
-   "score": 6.1
+   "why": "現在の火星におけるメートル規模リップルの急速な形成という火星表層過程の研究だが、アブストラクトがなく内容を評価できない。",
+   "score": 7.0
   },
   {
    "journal": "EPSL",
    "jweight": 0.7,
-   "title": "Morphology and dynamics of steep-fronted glaciers around Alba Mons, Mars",
-   "doi": "https://doi.org/10.1016/j.epsl.2026.120444",
-   "url": "https://doi.org/10.1016/j.epsl.2026.120444",
+   "title": "Constraints on repeated polygonal ground formation at Gale crater, Mars",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120425",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120425",
    "date": "2026-11-10",
    "authors": [
-    "Noé Le Becq",
-    "Léo Scordia",
-    "Susan J. Conway",
-    "Anna Grau Galofre",
-    "Nicolas Mangold",
-    "Valentin Bickel"
+    "Madison L. Turner",
+    "Emmy B. Hughes",
+    "W. Rapin",
+    "Steven G. Banham",
+    "Frances Rivera‐Hernández",
+    "Aster Cowart"
    ],
    "n_authors": 7,
-   "abstract": "Martian ice-rich landforms, generically referred to as Viscous Flow Features (VFFs), are key to understanding the Late Amazonian climate history of Mars, as its evolution may be recorded in the internal structure and dynamics of these deposits. In this study, we report the occurrence of 29 steep-fronted, pole-facing lobate deposits identified within craters (24) and pits (5) larger than 2 km in diameter in the Alba Mons region of Mars. We interpret these deposits, which extend 1-3 km downslope and can reach thicknesses exceeding 200 m at their termini, as debris-covered glaciers. Their most distinctive feature is a steep (up to 42°) terminal scarp, tens to hundreds of meters high, which truncates surface flow features. This morphology has not been previously described for Martian debris covered glaciers, but resembles the steep termini of some debris-covered or rock glaciers on Earth. We propose that these steep-fronts result from sublimation-driven retreat of ice at the glacier termini. The steep fronts exhibit two superposed textural units. We argue that these do not reflect internal layering, but instead correspond to distinct components of the glacier system: a lower, rougher and steeper unit that we interpret as a debris accumulation (moraine-like), and an upper, smoother unit corresponding to the ice-rich body of the glacier. This debris accumulation is likely sourced from the degraded crater headwalls and transported by the flowing glacier before accumulating at the front as ice sublimates. Finally, our comparison with a debris-covered glacier in northern Iceland reveals similar frontal morphologies, supporting the interpretation of the two textural units of the Martian deposits. Combined with glacial flow model and climate model outputs, our results suggest that these deposits represent the remnants of ice deposits formed during a recent colder, high-obliquity period and preserved under favorable topographic conditions on pole-facing crater slopes. Although their present-day geometry indicates a state of disequilibrium, characterized by mass deficits in the distal regions and excess ice in the source areas, our results show that their distinctive steep-fronted morphology arises from the combined effects of ice flow and sublimation-driven marginal ablation. These findings underscore the critical roles of local topography and debris-ice interactions in governing the preservation, evolution, and geomorphic expression of ice-rich deposits on Mars.",
+   "abstract": "",
    "cited_by": 0,
    "hits": [
     "mars",
-    "martian"
+    "gale crater"
    ],
-   "relevance": 7,
+   "relevance": 8,
    "buzz": 4,
-   "summary_ja": "アルバ・モンス周辺で、直径2 km超のクレーターやピット内に見られる急峻な前面を持つ極向きのローブ状堆積物29例を報告している。これらは岩屑被覆氷河と解釈され、長さ1〜3 km、末端の厚さは200 m超に達する。最大42°の末端崖が特徴で、氷河末端での昇華による後退で形成されたと提案している。前面は2つの組織ユニットからなり、下部はモレーン状の岩屑集積、上部は氷に富む本体と解釈している。",
-   "why": "火星の後期アマゾニアン氷河・水氷の分布と気候史に関わる地質研究である。",
-   "score": 6.1
+   "summary_ja": "",
+   "why": "ゲール・クレーターの多角形地形という火星地質・水環境に直結するテーマだが、アブストラクトがなく内容を評価できない。",
+   "score": 6.7
   },
   {
    "journal": "EPSL",
    "jweight": 0.7,
-   "title": "The influence of a long-lived basal magma ocean on the coupled core-mantle evolution of Mars",
-   "doi": "https://doi.org/10.1016/j.epsl.2026.120407",
-   "url": "https://doi.org/10.1016/j.epsl.2026.120407",
-   "date": "2026-10-13",
+   "title": "In-situ sound velocities of iron-rich ringwoodite: Implications for the composition of the deep Martian mantle",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120474",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120474",
+   "date": "2026-11-21",
    "authors": [
-    "R Liu",
-    "Yang Li",
-    "Zhigang Zhang",
-    "Yufeng Lin",
-    "Changyi Xu",
-    "Frédèric Deschamps"
+    "Rui Zhang",
+    "Duojun Wang",
+    "Nao Cai",
+    "Robert Farla",
+    "Xiaokang Feng",
+    "Chunyin Zhou"
    ],
-   "n_authors": 9,
-   "abstract": "Recent seismic observations suggest the presence of a basal molten layer above the Martian core that may represent a long-lived basal magma ocean (BMO). However, its influence on the coupled thermal evolution of the Martian mantle and core remains poorly understood. Here, we employ a two-dimensional mantle convection model coupled with parameterized thermal evolution models for the core and BMO to investigate the long-term interior evolution of Mars. Our results show that a long-lived BMO modifies core-mantle thermal coupling by regulating heat exchange between the core and mantle and maintaining elevated temperatures in the lowermost mantle. In particular, enrichment of heat-producing elements (HPEs) within the BMO enhances deep interior heat retention, suppresses secular core cooling, inhibits inner-core growth, and promotes present-day mantle plume activity. We further find that reconciling a long-lived BMO with a present-day solid inner core requires both limited enrichment of HPEs within the BMO and relatively high core liquidus temperatures, which may be difficult to satisfy simultaneously. These results offer constraints on the thermal and magnetic evolution of Mars and highlight the importance of coupled mantle-BMO-core dynamics on Mars.",
+   "n_authors": 13,
+   "abstract": "",
    "cited_by": 0,
    "hits": [
-    "mars",
     "martian"
    ],
    "relevance": 7,
    "buzz": 3,
-   "summary_ja": "火星コア上の長寿命な基底マグマオーシャン(BMO)がマントルとコアの熱進化に与える影響を、2次元マントル対流モデルとパラメータ化したコア・BMOモデルで調べている。BMOは核とマントルの熱交換を調整し、最下部マントルの高温を維持するという。BMO内の熱生成元素の濃集は深部の熱保持を高め、コアの冷却や内核成長を抑え、現在のマントルプルーム活動を促進するとされる。現在の固体内核と両立させるには、熱生成元素の濃集が限定的でコアのリキダス温度が高い必要があるが、両立は難しいかもしれないと結論している。",
-   "why": "火星内部構造と磁場進化に関する地震学観測を踏まえた理論研究で、火星の関心分野に合う。",
+   "summary_ja": "",
+   "why": "鉄に富むリングウッダイトの音速測定から火星深部マントル組成を探る火星内部研究だが、アブストラクトがなく内容を評価できない。",
    "score": 5.8
   },
   {
    "journal": "GCA",
    "jweight": 0.7,
-   "title": "Boron isotope fractionation in siliceous hot spring sinters: Geochemical implications for biosignatures",
-   "doi": "https://doi.org/10.1016/j.gca.2026.09.023",
-   "url": "https://doi.org/10.1016/j.gca.2026.09.023",
+   "title": "Apatite in Chang’e-6 mare basalts reveals a heterogeneous distribution of chlorine in the Moon",
+   "doi": "https://doi.org/10.1016/j.gca.2026.10.007",
+   "url": "https://doi.org/10.1016/j.gca.2026.10.007",
    "date": "2026-10-08",
    "authors": [
-    "Eizo Nakamura",
-    "Chie Sakaguchi",
-    "K. Kobayashi",
-    "Van Nghiem Dao",
-    "E.A. Kalinina",
-    "Hidehisa Tsuchida"
+    "Sen Hu",
+    "Mengfan Qiu",
+    "Linxi Li",
+    "Hejiu Hui",
+    "Jialong Hao",
+    "Huicun He"
    ],
-   "n_authors": 11,
-   "abstract": "Siliceous hot spring sinters preserve coupled mineralogical, geochemical, and isotopic signatures generated during microbial silicification and therefore represent valuable archives of biosignature formation. However, the mechanistic criteria for distinguishing biologically influenced silicification from abiotic silica precipitation remain poorly constrained. Here we present paired boron-isotope and comprehensive multi-element datasets (up to 57 elements) for opaline silica sinters and coexisting waters from four hydrothermal systems spanning a wide range of physicochemical conditions (pH 2–8; 30–98 °C): the Taupo Volcanic Zone (New Zealand), Misasa (Japan), Puga (India), and El Tatio (Chile). Hydrothermal waters exhibit a relatively restricted range of δ 11 B values (≈ −5 to − 1‰, except Puga at ≈ −13‰), whereas associated silica sinters display much larger isotopic variability (≈ −10 to − 40‰), with in situ secondary ion mass spectrometry (SIMS) analyses revealing microscale domains with values as low as − 50‰. Strongly negative δ 11 B values are systematically associated with boron enrichment (up to > 10,000 ppm), laminated microbial fabrics, and enrichments of multivalent and high-field-strength (HFS) cations. Stepwise leaching experiments and SIMS observations indicate that the measured boron-isotope signatures predominantly preserve primary depositional characteristics despite minor localized evaporative modification. To explain these coupled observations, we propose an EPS microenvironmental reactor model in which microbial activity within EPS-rich microenvironments generates localized physicochemical conditions distinct from those of bulk fluids. Within these microenvironments, local pH gradients associated with microbial activity promote the formation of tetrahedral borate, while EPS-associated multivalent and HFS cations facilitate boron retention during early opal-A polymerization. Progressive silica precipitation preferentially immobilizes isotopically light boron, producing strongly negative δ 11 B values together with characteristic multi-element enrichments. The model provides a mechanistic framework linking microbial activity, aqueous boron speciation, element partitioning, and silica precipitation, thereby accounting for the observed hierarchy of boron-isotope fractionation across geothermal systems spanning acidic to alkaline conditions. These findings indicate that opaline silica exhibiting δ 11 B ≤ − 20‰, together with boron enrichment, HFS-cation enrichment, and stromatolitic microfabrics, provides a powerful and testable geochemical criterion for biologically influenced silicification. Such negative δ 11 B values extend far beyond those of primary silicate reservoirs and, when coupled with complementary elemental and microstructural evidence, are consistent with biologically influenced boron sequestration during silica precipitation. The consistency of this signature across chemically diverse hydrothermal environments, together with its potential preservation in Paleoarchean hydrothermal deposits, suggests that boron isotopes offer a valuable tool for evaluating biosignatures in ancient terrestrial hydrothermal systems and silica-bearing environments, including Mars.",
+   "n_authors": 14,
+   "abstract": "Chlorine (Cl) serves as a crucial volatile element, providing insight into the magmatic processes and volatile inventory of the Moon. The lunar rocks have notably elevated Cl isotopic compositions; however, no information is available about the Cl and its isotopes on the farside. Here, we report a petrographic, chemical, and Cl isotopic study of apatite in the Chang’e-6 (CE6) mare basalt collected from the South Pole–Aitken (SPA) basin. CE6 mare apatite was measured to have a Cl abundance of 0.04–3.36 wt%. We estimated a Cl abundance of ∼0.6 μg g −1 for the CE6 mantle source, slightly higher than that (0.26–0.32 μg g −1 ) estimated from Apollo low-titanium mare basalts and lower than that (∼1.3 μg g −1 ) of Chang’e-5 low-titanium mare basalt. Cl abundances in the mantle source of low-titanium mare basalts exhibit a positive correlation towards the crystallization ages, highlighting a heterogeneous distribution of chlorine in the lunar mantle. The measured chlorine isotopic compositions (δ 37 Cl, 14.5 ± 2.0‰ to 27.2 ± 2.2‰) are mostly higher than that of nearside mare basalts (0–20‰). CE6 mare apatite shows a positive correlation between Cl abundances and Cl isotopic compositions, comparable with the trend defined by the low-titanium mare apatite collected from the nearside hemisphere. We infer that the high δ 37 Cl values of CE6 mare apatite were associated with magmatic fractionation of Cl coupled with an elevated chlorine isotopes in the mantle source, favoring the model that the massive formation impact event of SPA would have imprinted the chlorine isotopic compositions in the underlying mantle rocks.",
    "cited_by": 0,
    "hits": [
-    "mars",
-    "biosignature"
+    "titan"
    ],
-   "relevance": 7,
-   "buzz": 3,
-   "summary_ja": "ニュージーランド、三朝、プーガ、エル・タティオの4つの熱水系で、珪質温泉シンターと共存水のホウ素同位体と多元素組成(最大57元素)を報告している。水のδ11Bは狭い範囲(約−5〜−1‰、プーガは約−13‰)だが、シンターは約−10〜−40‰、SIMSでは最低−50‰に達する。強い負のδ11Bはホウ素濃集、層状の微生物組織、多価・高電界強度陽イオンの濃集と関連していた。段階的溶出実験などから、同位体シグナルは一次的な堆積時の特徴を主に保持していると示される。",
-   "why": "微生物シリカ化の生命痕跡判別に関わり、火星の熱水堆積物探査などアストロバイオロジーに関連する。",
-   "score": 5.8
+   "relevance": 6,
+   "buzz": 4,
+   "summary_ja": "月の裏側・南極エイトケン盆地から採取された嫦娥6号の海の玄武岩中のアパタイトについて、岩石学・化学・塩素同位体を調べている。アパタイトのCl量は0.04–3.36 wt%で、嫦娥6号マントル源のCl量は約0.6 μg/gと推定され、アポロの低Ti玄武岩より高く嫦娥5号より低い。低Ti海玄武岩のマントル源のCl量は結晶化年代と正の相関を示し、月マントルでのClの不均質な分布を示唆する。δ37Clは14.5〜27.2‰で、多くが表側の海玄武岩(0–20‰)より高く、マグマ分別とマントル源の高いCl同位体比が関与したと推論している。",
+   "why": "月サンプルリターン試料の揮発性元素分析であり、サンプル分析という点で関心に近いが、月が対象のため中程度。",
+   "score": 5.5
   },
   {
    "journal": "EPSL",
    "jweight": 0.7,
-   "title": "Co-evolution of insoluble organic matter and silicate minerals driven by electrochemistry on the parent bodies of carbonaceous chondrites",
-   "doi": "https://doi.org/10.1016/j.epsl.2026.120476",
-   "url": "https://doi.org/10.1016/j.epsl.2026.120476",
-   "date": "2026-11-23",
+   "title": "Determining post-core formation accretion in asteroid 4-Vesta and implications for inner Solar System late accretion",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120451",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120451",
+   "date": "2026-11-02",
    "authors": [
-    "Yamei Li",
-    "Yoko Kebukawa",
-    "Masanori Suzuki",
-    "愛龍 李",
-    "曹昱"
+    "James M D Day",
+    "Jasmeet K. Dhaliwal"
    ],
-   "n_authors": 5,
-   "abstract": "",
+   "n_authors": 2,
+   "abstract": "Highly siderophile element (HSE: Re, Os, Ir, Ru, Pt, Pd) abundances are reported for eucrites, diogenites and howardites from Vesta. The four orders of magnitude variation (1 × 10 –3 to 1 × 10 –6 × CI chondrite) and measured 187 Os/ 188 Os (0.103 to 3.07) ranges in eucrites primarily reflect post-crystallization impactor additions and constrain meteorites previously identified as pristine (<1 μg/g Ni) as having limited (<0.1%) chondritic HSE additions. Pristine eucrites have fractionated inter-element HSE ratios with respect to chondrites, with a wide range of 187 Os/ 188 Os, making them distinct and more HSE-rich than lunar mare basalts. These eucrites define the crustal Vesta HSE composition as broadly similar to modern terrestrial basaltic oceanic crust. Models assuming either residual metal in the mantle, or its complete exhaustion, during eucrite melt extraction predict an HSE enriched bulk silicate Vesta compared to bulk silicate Earth or bulk silicate Mars, requiring between 0.4 to 1.9% post-core formation accretion (PCFA). A preferred alternative model using regression of the HSE to MgO contents of eucrites and diogenites derives a composition between bulk silicate Earth and bulk silicate Moon, requiring ∼0.12% PCFA. Such a composition is like the HSE contents measured for peridotites considered to come from Vesta. The estimates of PCFA from this large dataset of vestan meteorites are all higher than previously determined estimates, requiring a proportional increase in mass from leftover planetesimal and asteroidal sources to the inner Solar System planets.",
    "cited_by": 0,
    "hits": [
-    "carbonaceous chondrite"
+    "mars"
    ],
-   "relevance": 7,
+   "relevance": 5,
    "buzz": 3,
-   "summary_ja": "",
-   "why": "炭素質コンドライト母天体での不溶性有機物とケイ酸塩の共進化という前生物化学に近い題材だが、アブストラクトがなく詳細は不明。",
-   "score": 5.8
+   "summary_ja": "ベスタ由来のユークライト、ダイオジェナイト、ハワーダイトの高親鉄元素(HSE)存在度を報告している。ユークライトのHSEの大きな変動と187Os/188Os比は、主に結晶化後の衝突天体の付加を反映している。ベスタ地殻のHSE組成は、地球の海洋玄武岩地殻に広く似ていた。コア形成後の付加(PCFA)は、モデルにより0.4〜1.9%、またMgOとの回帰を用いた好ましいモデルでは約0.12%と見積もられ、いずれも従来推定より高い。",
+   "why": "隕石に基づく初期太陽系の後期集積の研究で惑星科学として有用だが、読者の中心分野とはやや離れる。",
+   "score": 4.6
+  },
+  {
+   "journal": "GCA",
+   "jweight": 0.7,
+   "title": "A new view of Xe and Ne in the Paleoarchean atmosphere from paired noble gas isotopic and trace element analyses of Barberton cherts",
+   "doi": "https://doi.org/10.1016/j.gca.2026.10.015",
+   "url": "https://doi.org/10.1016/j.gca.2026.10.015",
+   "date": "2026-10-15",
+   "authors": [
+    "Kelsey Woody",
+    "Rita Parai",
+    "David A. Fike",
+    "Clive Jones",
+    "Guillaume Avice",
+    "Mattison H. Barickman"
+   ],
+   "n_authors": 9,
+   "abstract": "The terrestrial atmosphere governs Earth’s habitability and remains our most accessible analogue to distant planetary atmospheres, making the evolution of its composition over Earth history a topic of great interdisciplinary scientific interest. Many different natural samples are capable of trapping and retaining atmospheric gases on billion-year timescales, providing a geochemical archive of bygone processes. These trapped gases record a progressive depletion in the abundance of xenon (Xe) accompanied by its isotopic fractionation in Earth’s Archean atmosphere. However, the detailed history of this loss and isotopic fractionation of Xe is imperfectly constrained, in part because calculations focus on the non-radiogenic light isotopes of Xe (which are the least abundant isotopes) to determine ancient atmospheric compositions. In this study, we employed the full spectrum of Xe isotopes measured in four cherts from the 3.55–3.26 Ga Onverwacht Group of the Barberton Greenstone Belt, South Africa to quantify Xe isotopic fractionation in the Paleoarchean atmosphere. First, we measured the concentration and spatial distribution of Te, Ba, U, and Th by secondary ion mass spectrometry in subsamples of each chert to estimate the expected composition of Xe produced in situ by nuclear reactions. We then analyzed chips of these subsamples for Ne, Ar, and Xe elemental and isotopic compositions. We find that Xe data from Onverwacht bulk cherts reflect mixing between Paleoarchean atmospheric Xe and modern atmospheric Xe, with minor inputs from Xe produced by U, Ba, and Te decay. A mixing model incorporating these five components and testing a range of possible Archean atmospheric compositions indicates that Xe in the ∼ 3.26–3.28 Ga atmosphere was fractionated by ≥ 19 - 3.2 + 3.1 ‰u −1 relative to modern air. Our results emphasize that even samples with noble gas compositions dominated by trapped ancient fluids may in detail reflect multicomponent mixing, and that estimates of the extent of mass-dependent Xe fractionation reported in previous studies are lower limits. Barberton chert 20 Ne/ 22 Ne ratios extend below the modern atmospheric ratio, which could reflect post-entrapment fractionation that preferentially retained heavy Ne isotopes, or may indicate the preservation of a trapped multi-component mixture including paleo-atmospheric 20 Ne/ 22 Ne that was subsequently raised by volcanic outgassing",
+   "cited_by": 0,
+   "hits": [
+    "habitab"
+   ],
+   "relevance": 5,
+   "buzz": 3,
+   "summary_ja": "南アフリカのバーバートン緑色岩帯オンバーワハト層群(3.55–3.26 Ga)の4つのチャートについて、Xe同位体の全スペクトルを用いて古始生代大気のXe同位体分別を定量化している。まず二次イオン質量分析で試料のTe、Ba、U、Thの濃度と空間分布を測り、核反応でその場生成されるXeの組成を見積もった。次にNe、Ar、Xeの元素・同位体組成を分析した。その結果、バルクチャートのXeデータは古始生代の大気成分とその場生成成分の混合を反映することが示された。",
+   "why": "初期地球大気の進化はハビタビリティと関連するが、地球の太古代試料の研究であり、読者の主分野との関連は間接的。",
+   "score": 4.6
+  },
+  {
+   "journal": "EPSL",
+   "jweight": 0.7,
+   "title": "Incomplete lunar mantle overturn drove high-titanium volcanism 3.9–3.5 billion years ago",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120364",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120364",
+   "date": "2026-09-22",
+   "authors": [
+    "Haojie Chen",
+    "Bin Su",
+    "Yi Chen",
+    "Wei Du",
+    "Zeling Wang",
+    "Lin Jia"
+   ],
+   "n_authors": 7,
+   "abstract": "Mantle overturn driven by the sinking of dense ilmenite-bearing cumulates (IBC) fundamentally shaped the Moon’s thermochemical evolution. Lunar high-titanium (high-Ti) volcanism directly probes this process; however, current models fail to reconcile the petrogenesis of these magmas with their highly restricted eruption window (∼3.9–3.5 Ga). Here, we use a revised thermodynamic melt model, specifically calibrated for high-Ti magmatic systems, to systematically evaluate the P – T –composition space of IBC-hybridized lunar mantle melting. Our results demonstrate that reproducing lunar high-Ti volcanic compositions requires a heavily hybridized mantle source containing ∼40–60% IBC, melting at pressures of ∼10–30 kbar (∼200–700 km depth). These moderate melting depths indicate that a substantial volume of dense IBC did not sink efficiently to the core–mantle boundary but was instead arrested and retained within the mid-to-upper mantle during the global mantle overturn. We propose that this shallow retention provides the critical framework controlling the temporal window of high-Ti volcanism. The initiation of this volcanism at ∼3.9 Ga was likely triggered by enhanced impact-driven mantle convection that mechanically facilitated the extensive source hybridization, while its cessation after ∼3.5 Ga reflects the exhaustion of these shallow IBC reservoirs alongside lunar secular cooling. Our results establish the incompleteness of the lunar mantle overturn and dynamically link it to the temporal enigmas of early high-Ti mare volcanism.",
+   "cited_by": 0,
+   "hits": [
+    "titan"
+   ],
+   "relevance": 3,
+   "buzz": 3,
+   "summary_ja": "月の高チタン火山活動を、高チタン系に合わせて較正した熱力学的溶融モデルで評価している。高チタン火山岩の組成を再現するには、約40–60%のイルメナイト含有集積岩(IBC)を含む混成マントル源が、約10–30 kbarで溶融する必要があるとされた。この結果は、IBCの多くが核–マントル境界まで沈まず、中部〜上部マントルに留まったことを示唆する。火山活動が約3.9 Gaに始まったのは衝突駆動の対流による混成化が引き金で、約3.5 Ga以降の終息はIBC貯蔵域の枯渇と月の冷却によると提案している。",
+   "why": "月内部進化の話題で惑星科学としては関連するが、読者の主関心(火星・氷衛星・アストロバイオロジー)からはやや外れる。",
+   "score": 3.4
+  },
+  {
+   "journal": "EPSL",
+   "jweight": 0.7,
+   "title": "Tectonic and magmatic control on hydrothermal distribution along the ultra-slow spreading Mohns Ridge",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120449",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120449",
+   "date": "2026-11-02",
+   "authors": [
+    "Morgane Le Saout",
+    "Thibaut Barreyre",
+    "Masako Tominaga",
+    "J. Escartín"
+   ],
+   "n_authors": 4,
+   "abstract": "Hydrothermal circulation along mid-ocean ridges is primarily controlled by the interplay between magmatic and tectonic processes. The Mohns Ridge, shaped by the Jan Mayen/Iceland plume and a shift from orthogonal to oblique accretion, provides a natural laboratory to test whether melt-flux, tectonic strain, and axial volcanic ridge (AVR) maturity predict hydrothermal venting, using a multiproxy approach combining bathymetry, magnetic, gravity, and seismicity data. Variations in mantle Bouguer anomaly and bathymetry along the axis show how plume distance and ridge obliquity jointly control melt distribution, dividing the ridge into three regions: high-melt-flux south of the 71.3°N, diffuse high-melt-flux between 71.3°N and 72.2°N, and a focused but melt-limited region northward. While AVR volume appears as an unreliable proxy for melt-flux and AVR maturity, along-axis correlation between magnetic, mantle Bouguer anomalies and sediment thickness distinguishes between well-developed active, well-developed inactive, and infrequent but recently active AVRs. Melt distribution style (focused vs. diffuse) and AVR magmatic state primarily dictate hydrothermal vent distribution: well-developed active AVR in focused regions promotes high-temperature venting, while a diffuse-melt distribution appears to hinder their development. The apparent tectonic strain in the axial valley shows no significant relationship with melt-flux or magnetic anomaly, reflecting the differing timescales between crustal accretion, alteration and surface activity. Similarly, seismic activity shows no relationship with AVR maturity, melt emplacement style, or hydrothermal venting, indicating that short-term events are decoupled from the long-term evolution of AVRs. Hydrothermal activity instead correlates more closely with the long-term magmatic evolution of AVRs than with these short-term events.",
+   "cited_by": 0,
+   "hits": [
+    "hydrothermal vent"
+   ],
+   "relevance": 2,
+   "buzz": 2,
+   "summary_ja": "超低速拡大のモーンズ海嶺で、メルトフラックス、テクトニックな歪み、軸状火山海嶺(AVR)の成熟度が熱水噴出を予測できるかを、地形・磁気・重力・地震活動データで検証している。ヤンマイエン/アイスランドプルームからの距離と海嶺の斜交度が、メルト分布を3領域に分けることを示した。メルト分布様式(集中型か拡散型か)とAVRの火成活動状態が熱水噴出分布を主に支配し、集中型領域の活動的AVRで高温噴出が促されるとしている。軸谷の見かけの歪みは、メルトフラックスや磁気異常と有意な関係を示さなかった。",
+   "why": "海底熱水系の研究で、アストロバイオロジー的な類推は可能だが、アブストラクトは地球の海嶺地球物理に限られ関連は薄い。",
+   "score": 2.5
   }
  ]
 }
