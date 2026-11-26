@@ -42,5 +42,17 @@
   ],
   "date": "2026-10-24",
   "t": "2026-11-26T17:27:26.038Z"
+ },
+ "https://doi.org/10.1016/j.gca.2026.10.003": {
+  "stars": 4,
+  "title": "Prebiotic organic compounds in asteroid Bennu and Ryugu reflect divergent parent body histories",
+  "journal": "GCA",
+  "hits": [
+   "prebiotic",
+   "bennu",
+   "ryugu"
+  ],
+  "date": "2026-10-04",
+  "t": "2026-11-26T17:27:57.953Z"
  }
 }
