@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Planetary Weekly — 火星・氷衛星・アストロバイオ</title>
+<style>
+  :root { --bg:#fafaf7; --fg:#1d1d1b; --mute:#6b6b66; --line:#e3e1da; --acc:#b4492b; --card:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#161614; --fg:#ecebe6; --mute:#9a998f; --line:#2c2c29; --acc:#e8825f; --card:#1e1e1b; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.7 -apple-system,"Hiragino Sans","Noto Sans JP",sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 20px 80px; }
+  h1 { font-size:22px; margin:0 0 4px; }
+  .sub { color:var(--mute); font-size:14px; margin-bottom:20px; }
+  select { font:inherit; padding:4px 8px; background:var(--card); color:var(--fg); border:1px solid var(--line); border-radius:6px; }
+  .bar { display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin-bottom:24px; }
+  article { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 18px; margin-bottom:14px; }
+  .meta { font-size:13px; color:var(--mute); }
+  .j { color:var(--acc); font-weight:600; }
+  h2 { font-size:17px; line-height:1.4; margin:6px 0 8px; }
+  h2 a { color:inherit; text-decoration:none; } h2 a:hover { text-decoration:underline; }
+  .why { font-size:13px; color:var(--mute); margin-top:8px; }
+  .tags span { display:inline-block; font-size:12px; border:1px solid var(--line); border-radius:99px; padding:0 8px; margin:6px 4px 0 0; color:var(--mute); }
+  .score { float:right; font-size:13px; color:var(--mute); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Planetary Weekly</h1>
+  <div class="sub">火星・氷衛星・アストロバイオロジー — Nature系 / Science系 / PNAS / EPSL / GCA から毎週ピック</div>
+  <div class="bar"><label>週: <select id="week"></select></label><span class="meta" id="info"></span></div>
+  <div id="list"></div>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => (s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+async function load(wk) {
+  const d = await (await fetch(`data/${wk}.json`)).json();
+  $("#info").textContent = `${d.since} 以降の ${d.n_scanned} 本から ${d.picks.length} 本を選定`;
+  $("#list").innerHTML = d.picks.map(p => `
+    <article>
+      <span class="score">score ${p.score}</span>
+      <div class="meta"><span class="j">${esc(p.journal)}</span> · ${esc(p.date)} · ${esc(p.authors.slice(0,3).join(", "))}${p.n_authors>3?" et al.":""}</div>
+      <h2><a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.title)}</a></h2>
+      <div>${esc(p.summary_ja)}</div>
+      <div class="why">${esc(p.why)}</div>
+      <div class="tags">${p.hits.slice(0,6).map(h=>`<span>${esc(h)}</span>`).join("")}</div>
+    </article>`).join("") || "<p>該当なし</p>";
+}
+(async () => {
+  const weeks = (await (await fetch("data/index.json")).json()).reverse();
+  $("#week").innerHTML = weeks.map(w => `<option>${w}</option>`).join("");
+  $("#week").onchange = e => load(e.target.value);
+  if (weeks.length) load(weeks[0]);
+})();
+</script>
+</body>
+</html>

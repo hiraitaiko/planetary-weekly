@@ -1,0 +1,112 @@
+{
+  "days_back": 8,
+  "top_n": 8,
+  "candidate_limit": 40,
+  "model": "claude-sonnet-5-5",
+  "contact_email": "you@example.com",
+  "journals": {
+    "Nature": {
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "weight": 1.0
+    },
+    "Nature Astronomy": {
+      "issn": [
+        "2397-3366"
+      ],
+      "weight": 1.0
+    },
+    "Nature Geoscience": {
+      "issn": [
+        "1752-0894",
+        "1752-0908"
+      ],
+      "weight": 1.0
+    },
+    "Nature Communications": {
+      "issn": [
+        "2041-1723"
+      ],
+      "weight": 0.6
+    },
+    "Science": {
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "weight": 1.0
+    },
+    "Science Advances": {
+      "issn": [
+        "2375-2548"
+      ],
+      "weight": 0.7
+    },
+    "PNAS": {
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "weight": 0.8
+    },
+    "EPSL": {
+      "issn": [
+        "0012-821X",
+        "1385-013X"
+      ],
+      "weight": 0.7,
+      "days_back": 75
+    },
+    "GCA": {
+      "issn": [
+        "0016-7037",
+        "1872-9533"
+      ],
+      "weight": 0.7,
+      "days_back": 75
+    }
+  },
+  "keywords": [
+    "mars",
+    "martian",
+    "jezero",
+    "gale crater",
+    "perseverance rover",
+    "curiosity rover",
+    "insight lander",
+    "marsquake",
+    "mars sample",
+    "europa",
+    "enceladus",
+    "titan",
+    "ganymede",
+    "callisto",
+    "triton",
+    "icy moon",
+    "icy satellite",
+    "ice shell",
+    "subsurface ocean",
+    "ocean world",
+    "cryovolcan",
+    "cryomagma",
+    "astrobiolog",
+    "habitab",
+    "biosignature",
+    "origin of life",
+    "prebiotic",
+    "life detection",
+    "extraterrestrial life",
+    "panspermia",
+    "organic matter in meteorite",
+    "extraterrestrial organic",
+    "sample return",
+    "bennu",
+    "ryugu",
+    "carbonaceous chondrite",
+    "hydrothermal vent",
+    "serpentiniz"
+  ],
+  "field_description": "火星(地質・大気・水・探査機/ローバー観測・火星隕石)、氷衛星(エウロパ、エンケラドス、タイタン、ガニメデ等の氷殻・内部海・プルーム・潮汐)、アストロバイオロジー(居住可能性、生命痕跡、前生物化学、有機物、サンプルリターン)に関する研究。"
+}
