@@ -1,0 +1,450 @@
+{
+ "week": "2026-W48",
+ "generated": "2026-11-26",
+ "since": "2026-11-10",
+ "n_scanned": 1314,
+ "picks": [
+  {
+   "journal": "PNAS",
+   "jweight": 0.8,
+   "title": "A decadal record of isotopic trends in martian atmospheric CO 2",
+   "doi": "https://doi.org/10.1073/pnas.2615294123",
+   "url": "https://doi.org/10.1073/pnas.2615294123",
+   "date": "2026-11-16",
+   "authors": [
+    "Heather B. Franz",
+    "Christopher R. Webster",
+    "Gregory J. Flesch",
+    "Paul Robert Mahaffy",
+    "Eric Raaen",
+    "Melinda A. Kahre"
+   ],
+   "n_authors": 26,
+   "abstract": "This work represents the first long-term record of the isotopic composition of martian atmospheric CO2, acquired in situ by the Curiosity rover at Gale crater during Mars Years (MY) 31-38 (2012-2025). Measurement campaigns were designed to investigate possibilities of both diurnal and seasonal effects on CO2 isotopes. Coordinated pairs of analyses during MY 31 and 38 revealed no significant differences in isotopic composition of CO2 acquired during daytime and nighttime hours. However, here we show evidence for modest enrichment in heavy isotopes of oxygen in both northern and southern hemisphere spring-summer seasons. We assessed several processes, including precipitation/sublimation and adsorption/desorption of CO2, CO2 photolysis, and oxygen isotope exchange as potential candidates for producing the observed fractionations. We find that while sublimation of CO2 from polar caps, sublimation and desorption of CO2 from lower latitude reservoirs, and CO2 photolysis are insufficient alone, we can reproduce the measured enrichment through modeling of isotope exchange between CO2 and 18O-enriched H2O in thin liquid-like films at Mars' surface or adsorbed within the regolith as Mars approaches and transits through perihelion. Lesser 18O enrichment near aphelion may reflect less favorable conditions for oxygen isotope exchange at lower temperatures. Observed seasonal variations in CO2 carbon isotopic composition are less pronounced, consistent with less carbon isotope exchange with surface reservoirs than seen for oxygen. Since our measurements were obtained at a single near-equatorial location on Mars, the relative contributions from global, regional, and local processes cannot be well-constrained by the available data.",
+   "cited_by": 0,
+   "hits": [
+    "mars",
+    "martian",
+    "gale crater",
+    "curiosity rover"
+   ],
+   "general": [],
+   "relevance": 9,
+   "buzz": 6,
+   "summary_ja": "キュリオシティがゲール・クレーターで火星年31〜38(2012〜2025年)に取得した、火星大気CO2の同位体組成の初の長期記録を報告している。昼夜差は有意でなかった一方、南北両半球の春夏に酸素の重い同位体がわずかに濃集していた。極冠や低緯度からのCO2昇華・脱着、光解離だけでは説明できず、表面やレゴリス中の薄い液体状の膜でのCO2と18O濃集H2Oとの同位体交換により再現できるとしている。炭素同位体の季節変動は小さい。",
+   "why": "火星大気・水の長期その場観測という中核的テーマで、表面での水–大気相互作用にも示唆がある。",
+   "score": 8.0
+  },
+  {
+   "journal": "Science Advances",
+   "jweight": 0.7,
+   "title": "The importance of organics in hydrothermal environments: A synchrotron laboratory study",
+   "doi": "https://doi.org/10.1126/sciadv.aei7801",
+   "url": "https://doi.org/10.1126/sciadv.aei7801",
+   "date": "2026-11-20",
+   "authors": [
+    "Laura E. Jenkins",
+    "Stephen P. Thompson",
+    "Eamonn T. Connolly",
+    "Celine Beck",
+    "Sarah J. Day",
+    "Lucy K. Saunders"
+   ],
+   "n_authors": 6,
+   "abstract": "The icy moon Enceladus has hydrothermal plumes that are of astrobiologic interest as they could provide conditions to sustain life or allow for its origin. To understand the geology of hydrothermal environments on icy moons, a carbonaceous asteroid simulant similar to the material Enceladus may have accreted from was subjected to conditions analogous to that of its seafloor. The sample environment used allowed high-resolution in situ synchrotron x-ray diffraction data to be collected during the experiment. Mineral reactions were observed as they occurred. Multiple mineral reactions had a large dependence on organic matter. Organics catalyzed the breakdown of aluminosilicates and dissolved pyrite. Melanophlogite and pyrrhotite were also formed as a result of organics being present. This study reveals that organics can have a large impact on mineral reactions and likely play an important role in the geology of hydrothermal vents on icy moons, which have an abundance of organics.",
+   "cited_by": 0,
+   "hits": [
+    "enceladus",
+    "icy moon",
+    "astrobiolog",
+    "hydrothermal vent"
+   ],
+   "general": [],
+   "relevance": 9,
+   "buzz": 6,
+   "summary_ja": "エンケラドスが集積した可能性のある炭素質小惑星に似た模擬物質を、海底熱水環境を模した条件下に置き、放射光X線回折でその場観察した実験研究である。複数の鉱物反応が有機物の存在に大きく依存し、有機物はアルミノケイ酸塩の分解を触媒し黄鉄鉱を溶解させた。有機物の存在によりメラノフロジャイトと磁硫鉄鉱が生成した。有機物は氷衛星の熱水噴出孔の地質に大きく影響しうると結論している。",
+   "why": "エンケラドス熱水環境と有機物の相互作用を扱い、アストロバイオロジーと氷衛星の両方に直結する。",
+   "score": 7.9
+  },
+  {
+   "journal": "Nature",
+   "jweight": 1.0,
+   "title": "Salty grains in Saturn’s outermost ring formed from the slow freeze of plumes from the moon Enceladus",
+   "doi": "https://doi.org/10.1038/d41586-026-03489-y",
+   "url": "https://doi.org/10.1038/d41586-026-03489-y",
+   "date": "2026-11-11",
+   "authors": [
+    "Kevin Peter Hand"
+   ],
+   "n_authors": 1,
+   "abstract": "",
+   "cited_by": 0,
+   "hits": [
+    "enceladus"
+   ],
+   "general": [],
+   "relevance": 8,
+   "buzz": 6,
+   "summary_ja": "",
+   "why": "エンケラドスのプルームと土星E環の塩を含む粒子に関する論考で氷衛星分野に直結するが、アブストラクトが空のため内容は未確認。",
+   "score": 7.6
+  },
+  {
+   "journal": "GCA",
+   "jweight": 0.7,
+   "title": "Prebiotic organic compounds in asteroid Bennu and Ryugu reflect divergent parent body histories",
+   "doi": "https://doi.org/10.1016/j.gca.2026.10.003",
+   "url": "https://doi.org/10.1016/j.gca.2026.10.003",
+   "date": "2026-10-04",
+   "authors": [
+    "Angel Mojarro",
+    "José C. Aponte",
+    "Daniel P. GLAVIN",
+    "Jamie E. Elsila",
+    "Jason P. Dworkin",
+    "Harold C. Connolly Jr."
+   ],
+   "n_authors": 6,
+   "abstract": "The return of pristine samples from carbonaceous asteroids Ryugu by JAXA’s Hayabusa2 mission and Bennu by NASA’s OSIRIS-REx mission has enabled the direct comparative study of prebiotic organic compounds across the two primitive bodies. Using pyrolysis, thermochemolysis, and one-pot derivatization coupled to gas chromatography-triple quadrupole-mass spectrometry, we analyzed free volatile, insoluble, and soluble organic matter in a Ryugu aggregate and compared results to a Bennu aggregate and stones of interest. Pyrolysis of the Ryugu sample revealed polycyclic aromatic hydrocarbons, their alkylated homologues, and sulfur-, oxygen-, and nitrogen-bearing heterocyclic aromatic compounds consistent with aqueous alteration of the parent body. One-pot derivatization of the Ryugu aggregate yielded only tentative detections of β-alanine and 2,4-diaminopyrimidine. This is in contrast to the 14 proteinogenic α-amino acids and five canonical nucleobases previously detected across Bennu samples using the same technique. Thermochemolysis of the Ryugu sample revealed limited methylated derivatives while Bennu samples did not yield compounds above the procedural blank. The sparse thermochemolysis detections in samples from both asteroids are notable given that diverse methylated derivatives have been reported from the Orguiel (CI1) and Murchison (CM2) meteorites. We interpret these results as most likely originating from reagent-mineral interactions suppressing TMAH yields. Overall, contrasting organic inventories reflect divergent-parent body histories. Results from the Ryugu samples are consistent with a CI1-like classification, displaying increased alkylation of insoluble organic matter alongside depleted soluble organic matter abundances. In contrast, Bennu preserves heterogeneous organic signatures across stones recording multiple distinct alteration episodes. The presence of prebiotic molecules including amino acids and nucleobases across both asteroids further highlights the significance of carbonaceous bodies in contributing the chemical building blocks of life throughout the early Solar System.",
+   "cited_by": 0,
+   "hits": [
+    "prebiotic",
+    "bennu",
+    "ryugu"
+   ],
+   "general": [],
+   "relevance": 8,
+   "buzz": 6,
+   "summary_ja": "リュウグウとベンヌの返却試料中の前生物的有機化合物を、熱分解、熱化学分解、ワンポット誘導体化とGC-MSで比較した。リュウグウでは多環芳香族炭化水素や含S・O・N複素環化合物が検出され、母天体の水質変質と整合する。一方アミノ酸や核酸塩基はβ-アラニンと2,4-ジアミノピリミジンが暫定的に検出されたのみで、ベンヌで見られた14種のタンパク質構成アミノ酸と5種の核酸塩基とは対照的だった。両天体の母天体史は異なると結論している。",
+   "why": "サンプルリターン試料の前生物有機物比較で、アストロバイオロジーの中心的話題である。",
+   "score": 7.3
+  },
+  {
+   "journal": "GCA",
+   "jweight": 0.7,
+   "title": "Solubility of tholins in hexane, acetonitrile, and acrylonitrile: Implications for Titan’s lakes",
+   "doi": "https://doi.org/10.1016/j.gca.2026.09.041",
+   "url": "https://doi.org/10.1016/j.gca.2026.09.041",
+   "date": "2026-10-06",
+   "authors": [
+    "Y Layssac",
+    "Troy L. Williams",
+    "Rohana Liyanage",
+    "Jackson O. Lay",
+    "V. F. Chevrier"
+   ],
+   "n_authors": 5,
+   "abstract": "Aerosols formed in the atmosphere of Titan sediment and accumulate on the surface where they may interact with the liquid hydrocarbons and organics composing the lakes and seas. In this study, Titan tholins made from nitrogen and methane (95/5) exposed to a cold plasma discharge have been mixed with acetonitrile, acrylonitrile, hexane and a saturated solution of acetonitrile in hexane, under an inert atmosphere at room temperature. The liquid phase has been monitored through time (days to weeks) using gas chromatography coupled to mass spectrometry. Fourier transform infrared spectroscopy has been used to characterize tholins before and after solubilization events, in both the near and mid infrared regions. Infrared spectra do not show differences induced by the interaction of tholins with the liquid phases used in this work. Gas chromatograms indicate that many organics are extracted from our tholins in acetonitrile, with the characterization of nitriles, amines and other nitrogen bearing molecules. Among the three other solvents tested, only acrylonitrile shows limited solubilization of organics from tholins, but no structure could be identified. Pure hexane fails to solubilize any organics detectable in our conditions, as expected by its nonpolar nature. Despite the high solubility of our tholins in acetonitrile, no organics are solubilized when this molecule is saturated in hexane. The positive results obtained with polar solvents (acetonitrile and acrylonitrile) and the negative results obtained with nonpolar liquid phases (hexane with or without acetonitrile) are consistent with previous studies. However, these studies also showed that the composition of tholins is highly dependent on the conditions used for their synthesis, which cannot capture the complexity of Titan’s atmosphere where many processes co-exist. This suggests that Titan haze could contain a rich reservoir of organics that, given the geological timescales available, would make the presence of dissolved organics in the lakes and seas a real possibility.",
+   "cited_by": 0,
+   "hits": [
+    "titan"
+   ],
+   "general": [],
+   "relevance": 9,
+   "buzz": 4,
+   "summary_ja": "タイタン大気中で生成したエアロゾルは地表に堆積し、湖や海を成す液体炭化水素や有機物と相互作用しうる。本研究では窒素・メタン(95/5)の低温プラズマ放電で作ったタイタン・ソリンを、アセトニトリル、アクリロニトリル、ヘキサン、およびアセトニトリル飽和ヘキサンと混合し、GC-MSで液相を追跡した。ソリンはFTIRでも評価され、溶媒との相互作用による赤外スペクトルの変化は見られなかった。アセトニトリルでは多くの有機物(ニトリル、アミン等)が抽出され、アクリロニトリルでは限定的な溶解のみ、ヘキサンおよびアセトニトリル飽和ヘキサンでは検出可能な有機物は溶解しなかった。",
+   "why": "タイタンの湖とソリンの有機物溶解という、氷衛星と前生物化学の核心テーマに直結する。",
+   "score": 7.3
+  },
+  {
+   "journal": "GCA",
+   "jweight": 0.7,
+   "title": "Simultaneous formation of DNA and RNA nucleosides in shock-recovery experiments",
+   "doi": "https://doi.org/10.1016/j.gca.2026.10.020",
+   "url": "https://doi.org/10.1016/j.gca.2026.10.020",
+   "date": "2026-10-16",
+   "authors": [
+    "Jiawen Zhao",
+    "Koichi Mimura"
+   ],
+   "n_authors": 2,
+   "abstract": "Whether RNA, DNA, or both emerged as the first genetic system remains an important question in origin-of-life research. The RNA world hypothesis proposes that RNA preceded DNA, whereas alternative scenarios allow for the coexistence of RNA- and DNA-related building blocks during early chemical evolution. A key chemical question is whether deoxyribonucleosides can be generated abiotically from molecular precursors that could have been available under prebiotic conditions. Meteorite impacts generate transient high-pressure and high-temperature conditions that can promote rapid chemical reactions in solid-state environments. Here, we investigate the formation of ribonucleoside and deoxyribonucleoside frameworks from ribose and canonical purine and pyrimidine nucleobases under simulated meteorite impact conditions. Shock compression generated both ribonucleoside and deoxyribonucleoside frameworks during a single shock event. Single- and dual- 13 C-labeling experiments confirmed the incorporation of carbon from both ribose and nucleobase. Experiments conducted under different reaction conditions showed that nucleoside yields and product distributions varied with mineral composition, organic loading, nucleobase composition, and water content. These results demonstrate that shock compression provides a solid-state reaction regime in which both ribonucleoside and deoxyribonucleoside frameworks can be generated from common molecular precursors. This study provides experimental constraints on nucleoside formation and the environmental factors affecting this process under impact-driven conditions.",
+   "cited_by": 0,
+   "hits": [
+    "prebiotic"
+   ],
+   "general": [],
+   "relevance": 8,
+   "buzz": 6,
+   "summary_ja": "RNAとDNAのどちらが最初の遺伝系だったかという起源論に関連し、模擬隕石衝突条件(衝撃圧縮)でリボースと核酸塩基からヌクレオシドが生成するかを調べた。単一の衝撃イベントでリボヌクレオシドとデオキシリボヌクレオシドの骨格がともに生成した。13C標識実験により、リボースと核酸塩基の双方からの炭素取り込みが確認された。収量や生成物分布は鉱物組成、有機物量、核酸塩基の種類、水分量によって変化した。",
+   "why": "隕石衝突による前生物的ヌクレオシド合成という、アストロバイオ・前生物化学の中心的話題である。",
+   "score": 7.3
+  },
+  {
+   "journal": "EPSL",
+   "jweight": 0.7,
+   "title": "Rapid formation of meter-scale ripples on modern Mars",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120416",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120416",
+   "date": "2026-10-24",
+   "authors": [
+    "Amelia Ascione",
+    "L. Ojha",
+    "M. Chojnacki"
+   ],
+   "n_authors": 3,
+   "abstract": "",
+   "cited_by": 0,
+   "hits": [
+    "mars"
+   ],
+   "general": [],
+   "relevance": 8,
+   "buzz": 5,
+   "summary_ja": "",
+   "why": "現在の火星でメートル規模のリップルが急速に形成されたという火星表層の研究で関心に近いが、アブストラクトが空で内容は不明。",
+   "score": 7.0
+  },
+  {
+   "journal": "EPSL",
+   "jweight": 0.7,
+   "title": "An exposed magmatic feeder system for the regional olivine unit in Nili Fossae, Mars",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120390",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120390",
+   "date": "2026-10-08",
+   "authors": [
+    "Adomas Valantinas",
+    "John F. Mustard",
+    "Adriano Tullo",
+    "Michael Stephen Bramble",
+    "James W. Head III"
+   ],
+   "n_authors": 5,
+   "abstract": "The origin of the >100,000 km² regional olivine unit in the Nili Fossae-Jezero region has been variously attributed by orbital studies to airfall, effusive lavas, impact melt, or intrusive emplacement. In situ characterization of olivine-bearing igneous rocks in Jezero crater by the Mars 2020 Perseverance rover has revealed olivine cumulate textures indicative of effusive or intrusive magmatism, but conduits in the shallow-crustal feeder system that transported olivine-saturated magma have not been identified. Here we combine sub-meter pansharpened imagery from the Colour and Stereo Surface Imaging System (CaSSIS) and the High Resolution Imaging Science Experiment (HiRISE) with near-infrared spectral analysis from the Compact Reconnaissance Imaging Spectrometer for Mars (CRISM) to characterize a population of olivine-rich ridges and elongated features that crosscut the Fe/Mg-smectite basement at the \"Horseshoe\" site in Nili Fossae, ∼200 km north of Jezero. The features display a continuum of morphologies, from planar dike-like ridges through sinuous and braided lineaments that locally crosscut topography. Analysis of the 1 µm olivine near-infrared absorption places the features along the same compositional trend as the regional olivine–carbonate assemblage, and CRISM spectra resolve weak 1.9 and 2.32 µm absorptions diagnostic of hydrated/hydroxylated phases, indicating partial alteration of the intrusive olivine. We interpret these features as exhumed magmatic intrusions in a hydrated smectite basement, possibly exploiting pre-existing fault networks, and propose that they form part of a broader Jezero-Nili Fossae magmatic province. Magma-clay contact zones of this kind may provide a unique class of habitable environments in the shallow Noachian crust of Mars.",
+   "cited_by": 0,
+   "hits": [
+    "mars",
+    "jezero",
+    "perseverance rover",
+    "habitab"
+   ],
+   "general": [],
+   "relevance": 8,
+   "buzz": 4,
+   "summary_ja": "ニリ・フォッセ–ジェゼロ地域の広域オリビン岩体の起源について、CaSSIS・HiRISE画像とCRISM分光を組み合わせ、Fe/Mg-スメクタイト基盤を切る「Horseshoe」地点のオリビンに富む尾根状地形群を解析している。平面的な岩脈状から曲がりくねった編組状までの形態が連続し、1 µmのオリビン吸収は広域のオリビン–炭酸塩の組成トレンド上にある。1.9・2.32 µmの弱い吸収から、貫入したオリビンが部分的に変質していることが示される。これらは露出した火成貫入体と解釈されている。",
+   "why": "ペルセランスの探査地域に隣接する火星火成活動の供給系を示す地質研究である。",
+   "score": 6.7
+  },
+  {
+   "journal": "EPSL",
+   "jweight": 0.7,
+   "title": "Driving zonal flows in Europa’s ocean by magnetic induction",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120360",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120360",
+   "date": "2026-09-24",
+   "authors": [
+    "Ilse de Langen",
+    "Johannes Wicht"
+   ],
+   "n_authors": 2,
+   "abstract": "Jupiter’s moon Europa is immersed in the planet’s magnetic field. Variations caused by the orbital motion and Jupiter’s rotation induce currents into the moon’s subsurface ocean. The measurement of the related magnetic field signal by the Galileo spacecraft actually led to the discovery of the ocean. NASA’s Europa Clipper mission, scheduled to arrive in 2030, will perform refined measurements for constraining the ocean properties. Here we use 3D numerical simulations to explore whether the Lorentz forces caused by the induction process would drive flows in the ocean. Our simulations show that the magnetic field variations with the orbital frequency excite a specific inertial wave solution, known as the spin-over mode. Variations with the synodic frequency, on the other hand, drive geostrophic zonal flows. Although most parameters are realistic, the ocean viscosity is significantly larger than would be appropriate. However, by varying the viscosity over many orders of magnitude, we derive a scaling relation for extrapolating the simulation results to the ocean viscosity. Contrary to previous findings, our extrapolation suggests that the flows would generally be extremely weak with velocities below 10 − 6 m/s. This is a direct consequence of the relatively weak magnetic field at Europa’s orbit. We can therefore safely ignore the impact of the induced Lorentz forces on the ocean dynamics.",
+   "cited_by": 0,
+   "hits": [
+    "europa",
+    "subsurface ocean"
+   ],
+   "general": [],
+   "relevance": 8,
+   "buzz": 4,
+   "summary_ja": "木星磁場の変動がエウロパの内部海に誘導電流を生み、そのローレンツ力が海の流れを駆動するかを3次元数値シミュレーションで調べた。軌道周波数の変動は慣性波のスピンオーバーモードを励起し、会合周波数の変動は地衡流的な帯状流を駆動する。粘性を広範囲に変えて得たスケーリング則を実際の粘性に外挿すると、流速は10^-6 m/s未満と極めて弱くなり、従来の結果とは異なる。そのため誘導ローレンツ力が海洋力学に与える影響は無視できるとしている。",
+   "why": "エウロパの内部海のダイナミクスとクリッパー観測に関わる氷衛星研究である。",
+   "score": 6.7
+  },
+  {
+   "journal": "GCA",
+   "jweight": 0.7,
+   "title": "Constraining the effects of source regions and parent-body processes on soluble organic matter in carbonaceous chondrites",
+   "doi": "https://doi.org/10.1016/j.gca.2026.11.033",
+   "url": "https://doi.org/10.1016/j.gca.2026.11.033",
+   "date": "2026-11-01",
+   "authors": [
+    "Mingtan Dong",
+    "Wei Yang",
+    "Yamei Li",
+    "Li Quan",
+    "H.G. Changela",
+    "Siyu Li"
+   ],
+   "n_authors": 8,
+   "abstract": "",
+   "cited_by": 0,
+   "hits": [
+    "carbonaceous chondrite"
+   ],
+   "general": [],
+   "relevance": 8,
+   "buzz": 4,
+   "summary_ja": "",
+   "why": "炭素質コンドライト中の可溶性有機物を扱い、アストロバイオ・有機物研究に関連するが、アブストラクトがないため要約不可。",
+   "score": 6.7
+  },
+  {
+   "journal": "EPSL",
+   "jweight": 0.7,
+   "title": "A light chlorine isotopes reservoir on Mars",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120370",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120370",
+   "date": "2026-09-25",
+   "authors": [
+    "Disheng Zhou",
+    "Sen Hu",
+    "Akira Yamaguchi",
+    "Huicun He",
+    "Yue Zhang",
+    "Magali Bonifacie"
+   ],
+   "n_authors": 9,
+   "abstract": "Water and other volatiles are crucial for unravelling the evolution history of the geology and climate of Mars. Recently, some studies have shown that there are some light isotopic signatures of volatiles on Mars, for instance, the intermediate water reservoir recorded in Yamato 980459 (Y98). To better understand these processes, we adopted two-dimensional isotopic systematics (H and Cl) along with H 2 O, F, and Cl concentrations to investigate the origin of the light isotopic signatures in Y98. Y98 melt inclusions and impact glasses were measured to have distinct H 2 O, F, and Cl abundances and H and Cl isotopic compositions. Y98 melt inclusions could have recorded an addition of D- and 37 Cl-fluid to the parent melt in the magmatic process. In contrast, Y98 impact glasses have documented another hydrothermal event in which the fluid is characterized by light Cl isotopes. The extremely low F/Cl ratios (∼0.02) of Y98 impact glasses suggest that these glasses should have been almost devolatilized in the formation event of the impact melt pocket and have retaken the measured volatiles postdated the shock event. The light Cl isotopic compositions of Y98 impact glasses no doubt suggest there was a light Cl isotopes reservoir at near surface of Mars. We infer that the light Cl reservoir may be associated with the outgassing of volatiles in martian volcanism, suggesting that the dynamic atmospheric escape and outgassing supply of volatiles from Mars’ interior would have coordinatively shaped the climate of Mars over time.",
+   "cited_by": 0,
+   "hits": [
+    "mars",
+    "martian"
+   ],
+   "general": [],
+   "relevance": 8,
+   "buzz": 3,
+   "summary_ja": "火星隕石Yamato 980459について、HとClの2次元同位体系とH2O・F・Cl濃度を用い、軽い同位体の特徴の起源を調べた。メルト包有物はマグマ過程でDと37Clに富む流体が加わった記録を示す。衝撃ガラスは軽いCl同位体で特徴づけられる別の熱水イベントを記録し、F/Cl比は極めて低い(約0.02)。これは火星地表付近に軽いCl同位体のリザーバーが存在したことを示し、火山ガス放出に関連する可能性があるとしている。",
+   "why": "火星隕石による揮発性元素・水の進化の制約で、読者の関心に合致する。",
+   "score": 6.4
+  },
+  {
+   "journal": "Nature Astronomy",
+   "jweight": 1.0,
+   "title": "Planetary protection for the next era of Mars exploration",
+   "doi": "https://doi.org/10.1038/s41550-026-03018-x",
+   "url": "https://doi.org/10.1038/s41550-026-03018-x",
+   "date": "2026-11-16",
+   "authors": [
+    "Karen Olsson‐Francis",
+    "Peter T. Doran",
+    "Mark A. Sephton",
+    "Jonathan Carter",
+    "Petra Rettberg",
+    "María‐Paz Zorzano"
+   ],
+   "n_authors": 11,
+   "abstract": "",
+   "cited_by": 0,
+   "hits": [
+    "mars"
+   ],
+   "general": [],
+   "relevance": 7,
+   "buzz": 4,
+   "summary_ja": "",
+   "why": "次世代の火星探査における惑星保護を扱う論考で関心分野に近いが、アブストラクトが空のため詳細は不明。",
+   "score": 6.4
+  },
+  {
+   "journal": "GCA",
+   "jweight": 0.7,
+   "title": "Electrostatic discharge triggers troilite‑to‑magnetite oxidation in Mars dust activity",
+   "doi": "https://doi.org/10.1016/j.gca.2026.10.025",
+   "url": "https://doi.org/10.1016/j.gca.2026.10.025",
+   "date": "2026-10-20",
+   "authors": [
+    "Xiaojia Zeng",
+    "Xiongyao Li"
+   ],
+   "n_authors": 2,
+   "abstract": "",
+   "cited_by": 0,
+   "hits": [
+    "mars"
+   ],
+   "general": [],
+   "relevance": 7,
+   "buzz": 5,
+   "summary_ja": "",
+   "why": "火星のダスト活動に伴う静電放電と鉱物酸化を扱うとみられ火星関連だが、アブストラクトがないため低めに評価。",
+   "score": 6.4
+  },
+  {
+   "journal": "GCA",
+   "jweight": 0.7,
+   "title": "Thermodynamics of NaCl(aq) from 230 to 2000 K and from 0.1 to 10,000 MPa: Applications to Earth and Other Ocean Worlds",
+   "doi": "https://doi.org/10.1016/j.gca.2026.10.019",
+   "url": "https://doi.org/10.1016/j.gca.2026.10.019",
+   "date": "2026-10-23",
+   "authors": [
+    "Joanna M. Brown",
+    "O. Bollengier",
+    "Ula Jones",
+    "Steven Douglas Vance",
+    "Baptiste Journaux"
+   ],
+   "n_authors": 5,
+   "abstract": "We present a new Gibbs energy representation for aqueous NaCl, based on new sound speed and phase equilibrium measurements, using local basis functions. Throughout, NaCl(aq) denotes the bulk aqueous component—the sum of NaCl 0 , Na + and Cl − —rather than the neutral complex, with the degree of dissociation implicit in the measurements rather than imposed. This comprehensive equation of state, valid for pressures to 10 000 M P a , temperatures from 230 K to 2000 K , and molality to 7 m o l k g − 1 , allows us to address chemical processes within Earth and interior structure and evolution of large icy moons with possible oceans. The region below 500 M P a at temperatures above 500 K , which contains water’s saturation curve and critical point, is excluded for want of constraining measurements; within the domain represented the fluid is a single phase. In regimes unconstrained by data, it assumes near-gas behavior at high temperatures and volume mixing of water and salt at extreme pressures. Differentiation of the representation yields all equilibrium properties, including volumes, specific heat capacities, and chemical potentials. The model is validated by its accurate prediction of ice Ih and VI melting and brucite dehydration in saline solutions, and by its reproduction of antigorite dehydration in pure water through two changes in reaction product to beyond 6000 M P a . We describe three applications of the Gibbs energy representation. (1) The depth during subduction of the antigorite dehydration reaction in the presence of saline geofluids is estimated to be reduced by 2 k m to 4 k m per mole of NaCl in solution, substantially less than the up to 10 k m per mole implied by previously inferred pressure-dependent water activities. (2) A H 2 O − NaCl phase diagram to 1000 M P a and 230 K to 400 K identifies the pressure-variant eutectics for hydrohalite and disodium chloride decaheptahydrate, and places the cenotectic—the absolute limit of liquid stability—at 205 M P a , 235 K and 3.90 m o l k g − 1 , where the liquid coexists with ice Ih, ice II and disodium chloride decaheptahydrate rather than with hydrohalite. (3) Icy moons: structural models of Ganymede, Callisto, and two Titan cases with 1.90 m o l k g − 1 aqueous NaCl show that melting point suppression stabilizes ices II, III, V, and VI, and that ices II and III can be buoyant in the coexisting fluid, with the sense of the ice II contrast reversing between 50 and 100 g k g − 1 . The resulting co-occurrence of ices II and III, not previously reported, admits multiphase overturning and implies that salinity governs the geodynamics of these > 100 k m lithospheres. Finally, we set out how a bulk Gibbs energy surface interfaces with species-based frameworks such as HKF and the Deep Earth Water model, and propose that the pressure derivative of the surface can be used to constrain the degree of association at high pressure.",
+   "cited_by": 0,
+   "hits": [
+    "titan",
+    "ganymede",
+    "callisto",
+    "icy moon",
+    "ocean world"
+   ],
+   "general": [],
+   "relevance": 7,
+   "buzz": 4,
+   "summary_ja": "NaCl水溶液について、新たな音速と相平衡の測定に基づき、230〜2000 K、0.1〜10,000 MPa、モル濃度7 mol/kgまで有効なギブズエネルギー表現を示している。体積、比熱、化学ポテンシャルなどの平衡特性をすべて導出でき、氷IhやVIの融解、ブルーサイトの脱水などの予測で検証されている。この状態方程式は地球内部の化学過程や、海を持つ可能性のある大型氷衛星の内部構造・進化の検討に応用される。",
+   "why": "氷衛星の内部海や氷殻の熱力学モデリングに直接使える基盤的な状態方程式である。",
+   "score": 6.1
+  },
+  {
+   "journal": "GCA",
+   "jweight": 0.7,
+   "title": "Best Bulk Bennu (B3): elemental compositions of aggregate samples from asteroid Bennu",
+   "doi": "https://doi.org/10.1016/j.gca.2026.11.022",
+   "url": "https://doi.org/10.1016/j.gca.2026.11.022",
+   "date": "2026-11-01",
+   "authors": [
+    "K. Wang",
+    "K. Lodders",
+    "P. Koefoed",
+    "M. Broussard",
+    "J. Wimpenny",
+    "J. Render"
+   ],
+   "n_authors": 24,
+   "abstract": "Ivuna-type (CI) carbonaceous chondrites have long served as proxies for the bulk Solar System composition due to their close agreement with solar photospheric abundances and enrichment in volatile elements relative to other chondrite classes. However, CI chondrites have been subject to terrestrial alteration, which may have modified their original mineralogies and redistributed aqueously mobile elements. NASA’s OSIRIS-REx mission delivered pristine material from the carbonaceous asteroid Bennu, and initial analyses revealed close compositional similarities with CI chondrites. This provides a valuable opportunity to refine estimates of the bulk Solar System composition. We report concentrations of 63 elements in aggregate (bulk, unsorted) Bennu material (representing a combined mass of ∼ 8 g) analyzed across four laboratories. Within analytical uncertainties, we find no statistically significant differences among aliquots of two aggregate samples that were homogenized into powders, or among subsamples (including two previously reported) of a non-homogenized aggregate sample. Nor do we find measurable variations among sample masses ranging from tens of milligrams to several grams. These findings indicate that the material returned from Bennu is well mixed at the aggregate scale. Combining all of the data, we derive an average bulk elemental composition that we term Best Bulk Bennu (B3). Comparison of B3 with an average CI chondrite composition shows excellent agreement within analytical uncertainties, confirming that terrestrial alteration of CI chondrites is effectively isochemical for non-highly volatile elements. B3 and the CI chondrite average composition compare similarly to the solar photospheric composition. Our findings suggest that both CI meteorites and returned samples of carbonaceous asteroids are the best available materials for estimating the bulk Solar System composition of non-highly volatile elements.",
+   "cited_by": 3,
+   "hits": [
+    "bennu",
+    "carbonaceous chondrite"
+   ],
+   "general": [],
+   "relevance": 7,
+   "buzz": 4,
+   "summary_ja": "OSIRIS-RExが持ち帰ったベンヌの集合試料(合計約8 g)について、4つの研究室で63元素の濃度を分析した報告である。均質化した粉末の分取試料間や、数十mgから数gの試料量の間に統計的有意差はなく、集合体スケールでよく混合していると示された。全データから平均的な全岩組成「Best Bulk Bennu (B3)」を導出した。これをCIコンドライト平均と比べると、よく一致するとしている。",
+   "why": "サンプルリターン試料による太陽系の平均組成の基準更新で、始原天体研究に重要である。",
+   "score": 6.1
+  },
+  {
+   "journal": "EPSL",
+   "jweight": 0.7,
+   "title": "Co-evolution of insoluble organic matter and silicate minerals driven by electrochemistry on the parent bodies of carbonaceous chondrites",
+   "doi": "https://doi.org/10.1016/j.epsl.2026.120476",
+   "url": "https://doi.org/10.1016/j.epsl.2026.120476",
+   "date": "2026-11-23",
+   "authors": [
+    "Yamei Li",
+    "Yoko Kebukawa",
+    "Masanori Suzuki",
+    "愛龍 李",
+    "曹昱"
+   ],
+   "n_authors": 5,
+   "abstract": "",
+   "cited_by": 0,
+   "hits": [
+    "carbonaceous chondrite"
+   ],
+   "general": [],
+   "relevance": 7,
+   "buzz": 4,
+   "summary_ja": "",
+   "why": "炭素質コンドライト母天体での不溶性有機物とケイ酸塩鉱物の電気化学的共進化を扱い有機物・前生物化学に関連するが、アブストラクトが空で詳細は不明。",
+   "score": 6.1
+  }
+ ]
+}
